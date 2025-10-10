@@ -18,3 +18,9 @@ mdpc:
     - Connectivity
     - Development
     - Networking
+
+debug_lawnchair:
+  git: https://github.com/LawnchairLauncher/lawnchair
+  name: "Lawnchair"
+  categories:
+    - Launchers
