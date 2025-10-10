@@ -27,7 +27,7 @@ jobs:
         run: |
          sudo add-apt-repository ppa:fdroid/fdroidserver
          sudo apt update
-         sudo apt install fdroidserver
+         sudo apt install -y fdroidserver openjdk-21-jdk
          sudo apt install -y python3 python3-venv curl
          sudo python3 -m pip install Androguard --upgrade --ignore-installed
 
