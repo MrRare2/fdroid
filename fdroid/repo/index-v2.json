@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/MrRare2/fdroid/main/fdroid/repo",
-    "timestamp": 1760107764000,
+    "timestamp": 1760109193000,
     "categories": {
       "Connectivity": {
         "name": {
@@ -86,7 +86,7 @@
           "en-US": "MDPC"
         },
         "summary": {
-          "en-US": "Fork of OwnDroid, a more implementation (superset) of the original repo. Only..."
+          "en-US": "Fork of OwnDroid, A Device Policy Controller (DPC) app. Only used by me :)"
         },
         "description": {
           "en-US": "MDPC is a DPC (Device Policy Controller) to manage and control your mobile device.\n\nFeatures&colon;\n\n- Disable camera, screen capture, status bar\n- Set time and timezone\n- Lock and restart the device\n- Install/uninstall/suspend/hide apps\n- Monitor hardware\n- Add/remove user restrictions\n- and more!\n"

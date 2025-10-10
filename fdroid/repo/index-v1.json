@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1760107764000,
+    "timestamp": 1760109193000,
     "version": 20002,
     "name": "MrRare2 F-Droid",
     "icon": "icon.png",
@@ -25,7 +25,7 @@
       "license": "GPL-3.0",
       "name": "MDPC",
       "sourceCode": "https://github.com/MrRare2/MDPC",
-      "summary": "Fork of OwnDroid, a more implementation (superset) of the original repo. Only...",
+      "summary": "Fork of OwnDroid, A Device Policy Controller (DPC) app. Only used by me :)",
       "added": 1760103634000,
       "packageName": "dev.mr2.dpc",
       "lastUpdated": 1760103635000,
