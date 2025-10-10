@@ -13,6 +13,11 @@ func FindIcon(dir string) (string, bool) {
 	// Common locations for icons
 	searchPaths := []string{
 		filepath.Join(dir, "fastlane/metadata/android/en-US/images/icon.png"),
+		filepath.Join(dir, "app/src/main/res/mipmap-hdpi/ic_launcher.png"),
+		filepath.Join(dir, "app/src/main/res/mipmap-mhdpi/ic_launcher.png"),
+		filepath.Join(dir, "app/src/main/res/mipmap-xhdpi/ic_launcher.png"),
+		filepath.Join(dir, "app/src/main/res/mipmap-xxhdpi/ic_launcher.png"),
+		filepath.Join(dir, "app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"),
 		filepath.Join(dir, "icon.png"),
 	}
 
