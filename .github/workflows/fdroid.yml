@@ -29,7 +29,7 @@ jobs:
          sudo apt update
          sudo apt install fdroidserver
          sudo apt install -y python3 python3-venv curl
-         sudo python3 -m pip install Androguard --upgrade
+         sudo python3 -m pip install Androguard --upgrade --ignore-installed
 
       - name: Set up repo secrets
         run: |
