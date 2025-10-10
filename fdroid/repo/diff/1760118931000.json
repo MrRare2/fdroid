@@ -1,0 +1,79 @@
+{
+  "repo": {
+    "timestamp": 1760118939000,
+    "categories": {
+      "fdroid": null,
+      "Connectivity": {
+        "name": {
+          "en-US": "Connectivity"
+        }
+      },
+      "Development": {
+        "name": {
+          "en-US": "Development"
+        }
+      },
+      "Networking": {
+        "name": {
+          "en-US": "Networking"
+        }
+      }
+    }
+  },
+  "packages": {
+    "dev.mr2.dpc": {
+      "metadata": {
+        "categories": [
+          "Connectivity",
+          "Development",
+          "Networking"
+        ],
+        "license": "GPL-3.0",
+        "sourceCode": "https://github.com/MrRare2/MDPC",
+        "screenshots": {
+          "phone": {
+            "en-US": [
+              {
+                "name": "/dev.mr2.dpc/en-US/phoneScreenshots/1.jpg",
+                "sha256": "d1d7a9cec071ba19b2f8d2dc6a0cc589e4c34d8907a191b7b072b4a2a33debf1",
+                "size": 81554
+              },
+              {
+                "name": "/dev.mr2.dpc/en-US/phoneScreenshots/2.jpg",
+                "sha256": "41e0c4fabada360c2bd4121158aa69be98a988dd4fec33b987220d31a558717a",
+                "size": 131460
+              },
+              {
+                "name": "/dev.mr2.dpc/en-US/phoneScreenshots/3.jpg",
+                "sha256": "87a154d94e151cfdec54b219e976be962f808333b5b79f8b4c4d49a622bae76d",
+                "size": 119243
+              },
+              {
+                "name": "/dev.mr2.dpc/en-US/phoneScreenshots/4.jpg",
+                "sha256": "2de647748c525880eb0d43d6e9b6eee06332a0c0bbb386fe307aca273f0758cb",
+                "size": 118993
+              },
+              {
+                "name": "/dev.mr2.dpc/en-US/phoneScreenshots/5.jpg",
+                "sha256": "0a73795d891a67fa43c2a81ebe1fe2b9d2c0690dc185e621504b663f57fedfec",
+                "size": 161359
+              },
+              {
+                "name": "/dev.mr2.dpc/en-US/phoneScreenshots/6.jpg",
+                "sha256": "6a3e8297ad180c8f9aed3e7b92f4caaa39ec492c96f3517a095be12f90d5d00e",
+                "size": 124924
+              }
+            ]
+          }
+        },
+        "authorName": "MrRare2",
+        "summary": {
+          "en-US": "Fork of OwnDroid, A Device Policy Controller (DPC) app. Only used by me :)"
+        },
+        "description": {
+          "en-US": "MDPC is a DPC (Device Policy Controller) to manage and control your mobile device.\n\nFeatures&colon;\n\n- Disable camera, screen capture, status bar\n- Set time and timezone\n- Lock and restart the device\n- Install/uninstall/suspend/hide apps\n- Monitor hardware\n- Add/remove user restrictions\n- and more!\n"
+        }
+      }
+    }
+  }
+}

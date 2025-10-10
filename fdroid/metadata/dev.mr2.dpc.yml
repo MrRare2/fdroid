@@ -1,0 +1,25 @@
+AuthorName: MrRare2
+Categories:
+    - Connectivity
+    - Development
+    - Networking
+CurrentVersion: 7.1.4
+CurrentVersionCode: 4004
+Description: |
+    MDPC is a DPC (Device Policy Controller) to manage and control your mobile device.
+
+    Features&colon;
+
+    - Disable camera, screen capture, status bar
+    - Set time and timezone
+    - Lock and restart the device
+    - Install/uninstall/suspend/hide apps
+    - Monitor hardware
+    - Add/remove user restrictions
+    - and more!
+IssueTracker: ""
+License: GPL-3.0
+Name: MDPC
+SourceCode: https://github.com/MrRare2/MDPC
+Summary: Fork of OwnDroid, A Device Policy Controller (DPC) app. Only used by me :)
+WebSite: ""
