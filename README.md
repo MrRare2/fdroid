@@ -7,3 +7,4 @@ credits to this guy: https://github.com/xarantolus/fdroid
 <!-- This table is auto-generated. Do not edit -->
 | Icon | Name | Description | Version |
 | --- | --- | --- | --- |
+<!-- end apps table -->
