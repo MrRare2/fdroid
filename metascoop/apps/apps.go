@@ -28,6 +28,8 @@ type AppInfo struct {
         ReleaseDescription string
 
         License string
+
+		PackageName string
 }
 
 func (a AppInfo) Name() string {
