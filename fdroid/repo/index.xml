@@ -1,8 +1,218 @@
 <?xml version="1.0" encoding="utf-8"?>
 <fdroid>
-	<repo icon="icon.png" name="MrRare2 F-Droid" pubkey="3082058d30820375a003020102020849c55dccc23a9581300d06092a864886f70d01010d05003074310b3009060355040613025048311530130603550408130c4d6574726f204d616e696c61310f300d060355040713064d616e696c613110300e060355040a13074d72526172653231123010060355040b13094d72526172654c4c433117301506035504030c0e4d7252617265325f6664726f69643020170d3235313031303131313431375a180f32303533303232353131313431375a3074310b3009060355040613025048311530130603550408130c4d6574726f204d616e696c61310f300d060355040713064d616e696c613110300e060355040a13074d72526172653231123010060355040b13094d72526172654c4c433117301506035504030c0e4d7252617265325f6664726f696430820222300d06092a864886f70d01010105000382020f003082020a0282020100f306708963cec605cb58a287dca3b297f36d0fa5279c76bbe23007cf595e43313fde3179709cc3270b74f8965bf4177462aa3c1c7a8e887a210d66a82a8a07b1e4eac9db3461f2a48e5cc6871ef689dc59a618801bb3e821053d82fbf0b81d58837be69796896e1db5fd1f038c09f3359bc64afe3a472c475198cfd96eb6b23817791e96928d6ee4d64d3302855855024112b80b04d278a3842b28ac98e88083762bd7ea506d3db445cbcea29c738176e80128eb18ae4eff13670430bf9ff0805c6dc9c9d9cdce4a2fd99255cdfb05a95a31c865e84bc5f2c07c6e1324f0c342630936d580f0fb1e86c17f6ce2c6c4964e907e59a17ac1e63a3b88a2c933b387bff71240dd6736fe926d90a0df0ead5a128253ce43a9907cab4cd2664c60695c74cbb77b090a801c3deefe9183276c068a592049a6e95e12792f0d5dfce551b05abd5ef9b37a81ddd35bc6139fc94739999dbf9da3f0af8086b4525e904a498ac888d4e7c2847d2c607deb5de0bf49f5a061dededaf491d17e3013f9e62c862185c4a28b095bd2a23a2b4b39545fe7182c35eded8d39ad947e181ef5b5b0f17aeebd7402331faf8217e2395b94bd0d38f59955a36e6d1d10a28bd39676acb039019c576589bda3cbe25cde5b2d037f721927785fe3f7aaa05d07f992b0b3051d141a3dbf7fbc80d9baa07a596714ba4fb4ef29d53904a2bdd755fdba13468f650203010001a321301f301d0603551d0e041604140e63ca1f94688d0da1114937910f52393a8b11f5300d06092a864886f70d01010d05000382020100250da28b41718db900afa42e7198d3ce2e2a94fb0339490b0f57bf3ce2676d873e6f27426382037abecddfc6cdaad5a97cc8c46b2674c55a8552dd0566dbe056487d526bfafc63eca63f927d9d285f6c293e17b53e4ea7dab4559caa96c8b0671b6a2683fda2c01709ac5635c34daf3dc106bf1339ea9edd677ce185f6a6341cdab6653f9c60b0e0ae6d86f578b5c9c4cce1febef3b05590ea4a4c72ebf11e7501515cf884f5c588504547e6a6a75bfee91043e736d3f627f9fdb016d1de5f2d60c41c28a991e493c37cd917985567fa6a2cfecface90522b683dffe3cd5079a13b7eb72a20b68189c83e61ddd476e2b5510543665aa397d817b99b3154a2e7eef729e834c2604ce1cd98224103a5a7ba00b8657e10fb8388f0e1ccf66d65135790ef202846a2ac7bf0b3ad4a01a3cf5353ffff3a1a3d3c96e834f5b134b5a3a9d10b679520fe9dc3083fe884efd255b223fe56b2b810cb9ac36c7311379484db25ba0292e4332e9818941c39311b741fabc79ab55538ba5639c0e09aebad6e916ddaf841af381a3841c24f0edc3f74e7d200850c73d8e5e2b3bb9081b0e3f05264cae446086a5e7a4cfb714783021fb5448b3199e8740286d66db420cf2c5040ca441d91d0d4a5a3df552a641de05d4605842577939503ef85b4bedb6d3ba826a3101bf0f045b2e3d3246a27ada784d3a6bd7af0bab9adf161f7970bdaf7aff" timestamp="1760118939" url="https://raw.githubusercontent.com/MrRare2/fdroid/main/fdroid/repo" version="20002">
+	<repo icon="icon.png" name="MrRare2 F-Droid" pubkey="3082058d30820375a003020102020849c55dccc23a9581300d06092a864886f70d01010d05003074310b3009060355040613025048311530130603550408130c4d6574726f204d616e696c61310f300d060355040713064d616e696c613110300e060355040a13074d72526172653231123010060355040b13094d72526172654c4c433117301506035504030c0e4d7252617265325f6664726f69643020170d3235313031303131313431375a180f32303533303232353131313431375a3074310b3009060355040613025048311530130603550408130c4d6574726f204d616e696c61310f300d060355040713064d616e696c613110300e060355040a13074d72526172653231123010060355040b13094d72526172654c4c433117301506035504030c0e4d7252617265325f6664726f696430820222300d06092a864886f70d01010105000382020f003082020a0282020100f306708963cec605cb58a287dca3b297f36d0fa5279c76bbe23007cf595e43313fde3179709cc3270b74f8965bf4177462aa3c1c7a8e887a210d66a82a8a07b1e4eac9db3461f2a48e5cc6871ef689dc59a618801bb3e821053d82fbf0b81d58837be69796896e1db5fd1f038c09f3359bc64afe3a472c475198cfd96eb6b23817791e96928d6ee4d64d3302855855024112b80b04d278a3842b28ac98e88083762bd7ea506d3db445cbcea29c738176e80128eb18ae4eff13670430bf9ff0805c6dc9c9d9cdce4a2fd99255cdfb05a95a31c865e84bc5f2c07c6e1324f0c342630936d580f0fb1e86c17f6ce2c6c4964e907e59a17ac1e63a3b88a2c933b387bff71240dd6736fe926d90a0df0ead5a128253ce43a9907cab4cd2664c60695c74cbb77b090a801c3deefe9183276c068a592049a6e95e12792f0d5dfce551b05abd5ef9b37a81ddd35bc6139fc94739999dbf9da3f0af8086b4525e904a498ac888d4e7c2847d2c607deb5de0bf49f5a061dededaf491d17e3013f9e62c862185c4a28b095bd2a23a2b4b39545fe7182c35eded8d39ad947e181ef5b5b0f17aeebd7402331faf8217e2395b94bd0d38f59955a36e6d1d10a28bd39676acb039019c576589bda3cbe25cde5b2d037f721927785fe3f7aaa05d07f992b0b3051d141a3dbf7fbc80d9baa07a596714ba4fb4ef29d53904a2bdd755fdba13468f650203010001a321301f301d0603551d0e041604140e63ca1f94688d0da1114937910f52393a8b11f5300d06092a864886f70d01010d05000382020100250da28b41718db900afa42e7198d3ce2e2a94fb0339490b0f57bf3ce2676d873e6f27426382037abecddfc6cdaad5a97cc8c46b2674c55a8552dd0566dbe056487d526bfafc63eca63f927d9d285f6c293e17b53e4ea7dab4559caa96c8b0671b6a2683fda2c01709ac5635c34daf3dc106bf1339ea9edd677ce185f6a6341cdab6653f9c60b0e0ae6d86f578b5c9c4cce1febef3b05590ea4a4c72ebf11e7501515cf884f5c588504547e6a6a75bfee91043e736d3f627f9fdb016d1de5f2d60c41c28a991e493c37cd917985567fa6a2cfecface90522b683dffe3cd5079a13b7eb72a20b68189c83e61ddd476e2b5510543665aa397d817b99b3154a2e7eef729e834c2604ce1cd98224103a5a7ba00b8657e10fb8388f0e1ccf66d65135790ef202846a2ac7bf0b3ad4a01a3cf5353ffff3a1a3d3c96e834f5b134b5a3a9d10b679520fe9dc3083fe884efd255b223fe56b2b810cb9ac36c7311379484db25ba0292e4332e9818941c39311b741fabc79ab55538ba5639c0e09aebad6e916ddaf841af381a3841c24f0edc3f74e7d200850c73d8e5e2b3bb9081b0e3f05264cae446086a5e7a4cfb714783021fb5448b3199e8740286d66db420cf2c5040ca441d91d0d4a5a3df552a641de05d4605842577939503ef85b4bedb6d3ba826a3101bf0f045b2e3d3246a27ada784d3a6bd7af0bab9adf161f7970bdaf7aff" timestamp="1760120381" url="https://raw.githubusercontent.com/MrRare2/fdroid/main/fdroid/repo" version="20002">
 		<description>This app contains apps made by MrRare2 on https://github.com/MrRare2</description>
 	</repo>
+	<application id="ch.deletescape.lawnchair">
+		<id>ch.deletescape.lawnchair</id>
+		<added>2025-10-10</added>
+		<lastupdated>2025-10-10</lastupdated>
+		<name>Lawnchair</name>
+		<summary>No clever tagline needed.</summary>
+		<icon>ch.deletescape.lawnchair.1884.png</icon>
+		<desc>No description available</desc>
+		<license>NOASSERTION</license>
+		<categories>Launchers</categories>
+		<category>Launchers</category>
+		<web></web>
+		<source>https://github.com/LawnchairLauncher/lawnchair</source>
+		<tracker></tracker>
+		<author>LawnchairLauncher</author>
+		<marketversion>1.2.0.1884</marketversion>
+		<marketvercode>1884</marketvercode>
+		<package>
+			<version>1.2.0.1884</version>
+			<versioncode>1884</versioncode>
+			<apkname>debug_lawnchair_1.2.0.1884.apk</apkname>
+			<hash type="sha256">47525c98210fe738414ec2d77d170a51f0ced55ed624499ae2ab9cf804d4865d</hash>
+			<size>4252894</size>
+			<sdkver>21</sdkver>
+			<targetSdkVersion>27</targetSdkVersion>
+			<added>2025-10-10</added>
+			<sig>159aea60ec41a0f6a957562d90ab115b</sig>
+			<permissions>ACCESS_FINE_LOCATION,ACCESS_NETWORK_STATE,BIND_APPWIDGET,CALL_PHONE,EXPAND_STATUS_BAR,INTERNET,READ_EXTERNAL_STORAGE,RECEIVE_BOOT_COMPLETED,SET_WALLPAPER,SET_WALLPAPER_HINTS,WRITE_EXTERNAL_STORAGE,WRITE_SETTINGS,ch.deletescape.lawnchair.permission.QSB,ch.deletescape.lawnchair.permission.READ_SETTINGS,ch.deletescape.lawnchair.permission.WRITE_SETTINGS</permissions>
+		</package>
+		<package>
+			<version>1.2.0.1883</version>
+			<versioncode>1883</versioncode>
+			<apkname>debug_lawnchair_1.2.0.1883.apk</apkname>
+			<hash type="sha256">48be5acb7cd6d2abd2d0a416be53945bff18bbd5b70f8ed1daff2f119a0ddc4a</hash>
+			<size>4252302</size>
+			<sdkver>21</sdkver>
+			<targetSdkVersion>27</targetSdkVersion>
+			<added>2025-10-10</added>
+			<sig>159aea60ec41a0f6a957562d90ab115b</sig>
+			<permissions>ACCESS_FINE_LOCATION,ACCESS_NETWORK_STATE,BIND_APPWIDGET,CALL_PHONE,EXPAND_STATUS_BAR,INTERNET,READ_EXTERNAL_STORAGE,RECEIVE_BOOT_COMPLETED,SET_WALLPAPER,SET_WALLPAPER_HINTS,WRITE_EXTERNAL_STORAGE,WRITE_SETTINGS,ch.deletescape.lawnchair.permission.QSB,ch.deletescape.lawnchair.permission.READ_SETTINGS,ch.deletescape.lawnchair.permission.WRITE_SETTINGS</permissions>
+		</package>
+		<package>
+			<version>1.2.0.1878</version>
+			<versioncode>1878</versioncode>
+			<apkname>debug_lawnchair_1.2.0.1878.apk</apkname>
+			<hash type="sha256">ee32110483b0ae7eb51711e202937c70e0106f8371661d0cd3a420c03d1bab1a</hash>
+			<size>4176813</size>
+			<sdkver>21</sdkver>
+			<targetSdkVersion>27</targetSdkVersion>
+			<added>2025-10-10</added>
+			<sig>159aea60ec41a0f6a957562d90ab115b</sig>
+			<permissions>ACCESS_FINE_LOCATION,ACCESS_NETWORK_STATE,BIND_APPWIDGET,CALL_PHONE,EXPAND_STATUS_BAR,INTERNET,READ_EXTERNAL_STORAGE,RECEIVE_BOOT_COMPLETED,SET_WALLPAPER,SET_WALLPAPER_HINTS,WRITE_EXTERNAL_STORAGE,ch.deletescape.lawnchair.permission.QSB,ch.deletescape.lawnchair.permission.READ_SETTINGS,ch.deletescape.lawnchair.permission.WRITE_SETTINGS</permissions>
+		</package>
+		<package>
+			<version>1.1.0.1872</version>
+			<versioncode>1872</versioncode>
+			<apkname>debug_lawnchair_1.1.0.1872.apk</apkname>
+			<hash type="sha256">f3574e67aae66d04a702e7b31e3a5530dc7e8c35c127e91d281a76e3886dad22</hash>
+			<size>4898012</size>
+			<sdkver>21</sdkver>
+			<targetSdkVersion>27</targetSdkVersion>
+			<added>2025-10-10</added>
+			<sig>159aea60ec41a0f6a957562d90ab115b</sig>
+			<permissions>ACCESS_FINE_LOCATION,ACCESS_NETWORK_STATE,BIND_APPWIDGET,CALL_PHONE,EXPAND_STATUS_BAR,INTERNET,READ_EXTERNAL_STORAGE,RECEIVE_BOOT_COMPLETED,SET_WALLPAPER,SET_WALLPAPER_HINTS,WRITE_EXTERNAL_STORAGE,ch.deletescape.lawnchair.permission.QSB,ch.deletescape.lawnchair.permission.READ_SETTINGS,ch.deletescape.lawnchair.permission.WRITE_SETTINGS</permissions>
+		</package>
+		<package>
+			<version>1.1.0.1868</version>
+			<versioncode>1868</versioncode>
+			<apkname>debug_lawnchair_1.1.0.1868.apk</apkname>
+			<hash type="sha256">455d4cd39fdb4d274f7d1c895b7af9cec9f7c372d9feacfeb3f9a7cbc5f24338</hash>
+			<size>4896152</size>
+			<sdkver>21</sdkver>
+			<targetSdkVersion>27</targetSdkVersion>
+			<added>2025-10-10</added>
+			<sig>159aea60ec41a0f6a957562d90ab115b</sig>
+			<permissions>ACCESS_FINE_LOCATION,ACCESS_NETWORK_STATE,BIND_APPWIDGET,CALL_PHONE,EXPAND_STATUS_BAR,INTERNET,READ_EXTERNAL_STORAGE,RECEIVE_BOOT_COMPLETED,SET_WALLPAPER,SET_WALLPAPER_HINTS,WRITE_EXTERNAL_STORAGE,ch.deletescape.lawnchair.permission.QSB,ch.deletescape.lawnchair.permission.READ_SETTINGS,ch.deletescape.lawnchair.permission.WRITE_SETTINGS</permissions>
+		</package>
+		<package>
+			<version>1.1.0.1742</version>
+			<versioncode>1742</versioncode>
+			<apkname>debug_lawnchair_1.1.0.1742.apk</apkname>
+			<hash type="sha256">662043938edf4c2a42bc64a2dc0bb5b304497e26582d2bdc2c7df779074a6f1f</hash>
+			<size>3700429</size>
+			<sdkver>21</sdkver>
+			<targetSdkVersion>27</targetSdkVersion>
+			<added>2025-10-10</added>
+			<sig>159aea60ec41a0f6a957562d90ab115b</sig>
+			<permissions>ACCESS_FINE_LOCATION,ACCESS_NETWORK_STATE,BIND_APPWIDGET,CALL_PHONE,EXPAND_STATUS_BAR,INTERNET,READ_EXTERNAL_STORAGE,RECEIVE_BOOT_COMPLETED,SET_WALLPAPER,SET_WALLPAPER_HINTS,WRITE_EXTERNAL_STORAGE,ch.deletescape.lawnchair.permission.QSB,ch.deletescape.lawnchair.permission.READ_SETTINGS,ch.deletescape.lawnchair.permission.WRITE_SETTINGS</permissions>
+		</package>
+		<package>
+			<version>1.1.0.1730</version>
+			<versioncode>1730</versioncode>
+			<apkname>debug_lawnchair_1.1.0.1730.apk</apkname>
+			<hash type="sha256">dd1ee486cad61889308489c9f4f663465967d48af5d83b94580336c2c9f74459</hash>
+			<size>3694625</size>
+			<sdkver>21</sdkver>
+			<targetSdkVersion>27</targetSdkVersion>
+			<added>2025-10-10</added>
+			<sig>159aea60ec41a0f6a957562d90ab115b</sig>
+			<permissions>ACCESS_FINE_LOCATION,ACCESS_NETWORK_STATE,BIND_APPWIDGET,CALL_PHONE,EXPAND_STATUS_BAR,INTERNET,READ_EXTERNAL_STORAGE,RECEIVE_BOOT_COMPLETED,SET_WALLPAPER,SET_WALLPAPER_HINTS,WRITE_EXTERNAL_STORAGE,ch.deletescape.lawnchair.permission.QSB,ch.deletescape.lawnchair.permission.READ_SETTINGS,ch.deletescape.lawnchair.permission.WRITE_SETTINGS</permissions>
+		</package>
+		<package>
+			<version>1.1.0.1680</version>
+			<versioncode>1680</versioncode>
+			<apkname>debug_lawnchair_1.1.0.1680.apk</apkname>
+			<hash type="sha256">2cf358ed07c895d61e6904f74e24c6037cfe60b13b8c4aa70374bc0558e6e4c2</hash>
+			<size>4172672</size>
+			<sdkver>21</sdkver>
+			<targetSdkVersion>27</targetSdkVersion>
+			<added>2025-10-10</added>
+			<sig>159aea60ec41a0f6a957562d90ab115b</sig>
+			<permissions>ACCESS_FINE_LOCATION,ACCESS_NETWORK_STATE,BIND_APPWIDGET,CALL_PHONE,EXPAND_STATUS_BAR,INTERNET,READ_EXTERNAL_STORAGE,RECEIVE_BOOT_COMPLETED,SET_WALLPAPER,SET_WALLPAPER_HINTS,WRITE_EXTERNAL_STORAGE,ch.deletescape.lawnchair.permission.QSB,ch.deletescape.lawnchair.permission.READ_SETTINGS,ch.deletescape.lawnchair.permission.WRITE_SETTINGS</permissions>
+		</package>
+		<package>
+			<version>1.1.0.1655</version>
+			<versioncode>1655</versioncode>
+			<apkname>debug_lawnchair_1.1.0.1655.apk</apkname>
+			<hash type="sha256">2ab435aac7decfe221ce9eb87c0712bd34ee0220760755dc4430c183a238aad8</hash>
+			<size>4151407</size>
+			<sdkver>21</sdkver>
+			<targetSdkVersion>27</targetSdkVersion>
+			<added>2025-10-10</added>
+			<sig>159aea60ec41a0f6a957562d90ab115b</sig>
+			<permissions>ACCESS_FINE_LOCATION,ACCESS_NETWORK_STATE,BIND_APPWIDGET,CALL_PHONE,EXPAND_STATUS_BAR,INTERNET,READ_EXTERNAL_STORAGE,RECEIVE_BOOT_COMPLETED,SET_WALLPAPER,SET_WALLPAPER_HINTS,WRITE_EXTERNAL_STORAGE,ch.deletescape.lawnchair.permission.QSB,ch.deletescape.lawnchair.permission.READ_SETTINGS,ch.deletescape.lawnchair.permission.WRITE_SETTINGS</permissions>
+		</package>
+		<package>
+			<version>1.1.0.1594</version>
+			<versioncode>1594</versioncode>
+			<apkname>debug_lawnchair_1.1.0.1594.apk</apkname>
+			<hash type="sha256">69c3649d7537fa09a18a5044c1f0169f05b75ac9399efc42d93b8413c60b5727</hash>
+			<size>4154076</size>
+			<sdkver>21</sdkver>
+			<targetSdkVersion>27</targetSdkVersion>
+			<added>2025-10-10</added>
+			<sig>159aea60ec41a0f6a957562d90ab115b</sig>
+			<permissions>ACCESS_FINE_LOCATION,ACCESS_NETWORK_STATE,BIND_APPWIDGET,CALL_PHONE,EXPAND_STATUS_BAR,INTERNET,READ_EXTERNAL_STORAGE,RECEIVE_BOOT_COMPLETED,SET_WALLPAPER,SET_WALLPAPER_HINTS,WRITE_EXTERNAL_STORAGE,ch.deletescape.lawnchair.permission.QSB,ch.deletescape.lawnchair.permission.READ_SETTINGS,ch.deletescape.lawnchair.permission.WRITE_SETTINGS</permissions>
+		</package>
+		<package>
+			<version>1.1.0.1583</version>
+			<versioncode>1583</versioncode>
+			<apkname>debug_lawnchair_1.1.0.1583.apk</apkname>
+			<hash type="sha256">572078e6f76d146cc5e9dde8e2c1f7eb0fe49e0dcb077ef28bc7c2f463080a81</hash>
+			<size>4151830</size>
+			<sdkver>21</sdkver>
+			<targetSdkVersion>27</targetSdkVersion>
+			<added>2025-10-10</added>
+			<sig>159aea60ec41a0f6a957562d90ab115b</sig>
+			<permissions>ACCESS_FINE_LOCATION,ACCESS_NETWORK_STATE,BIND_APPWIDGET,CALL_PHONE,EXPAND_STATUS_BAR,INTERNET,READ_EXTERNAL_STORAGE,RECEIVE_BOOT_COMPLETED,SET_WALLPAPER,SET_WALLPAPER_HINTS,WRITE_EXTERNAL_STORAGE,ch.deletescape.lawnchair.permission.QSB,ch.deletescape.lawnchair.permission.READ_SETTINGS,ch.deletescape.lawnchair.permission.WRITE_SETTINGS</permissions>
+		</package>
+		<package>
+			<version>1.1.0.1427</version>
+			<versioncode>1427</versioncode>
+			<apkname>debug_lawnchair_1.1.0.1427.apk</apkname>
+			<hash type="sha256">8ecbcbf0ab80fa5c8d8b7ec62604bda4c7854e324d62cb0ddd9a94c33a7167c9</hash>
+			<size>3896394</size>
+			<sdkver>21</sdkver>
+			<targetSdkVersion>26</targetSdkVersion>
+			<added>2025-10-10</added>
+			<sig>159aea60ec41a0f6a957562d90ab115b</sig>
+			<permissions>ACCESS_FINE_LOCATION,ACCESS_NETWORK_STATE,BIND_APPWIDGET,CALL_PHONE,EXPAND_STATUS_BAR,INTERNET,READ_EXTERNAL_STORAGE,RECEIVE_BOOT_COMPLETED,SET_WALLPAPER,SET_WALLPAPER_HINTS,WRITE_EXTERNAL_STORAGE,ch.deletescape.lawnchair.permission.QSB,ch.deletescape.lawnchair.permission.READ_SETTINGS,ch.deletescape.lawnchair.permission.WRITE_SETTINGS</permissions>
+		</package>
+		<package>
+			<version>1.1.0.1420</version>
+			<versioncode>1420</versioncode>
+			<apkname>debug_lawnchair_1.1.0.1420.apk</apkname>
+			<hash type="sha256">fda3cdf4e363e12a31d3d50c63654292e1e6fb3b43e5268b88767f9ecc6c76f3</hash>
+			<size>3896303</size>
+			<sdkver>21</sdkver>
+			<targetSdkVersion>26</targetSdkVersion>
+			<added>2025-10-10</added>
+			<sig>159aea60ec41a0f6a957562d90ab115b</sig>
+			<permissions>ACCESS_FINE_LOCATION,ACCESS_NETWORK_STATE,BIND_APPWIDGET,CALL_PHONE,EXPAND_STATUS_BAR,INTERNET,READ_EXTERNAL_STORAGE,RECEIVE_BOOT_COMPLETED,SET_WALLPAPER,SET_WALLPAPER_HINTS,WRITE_EXTERNAL_STORAGE,ch.deletescape.lawnchair.permission.QSB,ch.deletescape.lawnchair.permission.READ_SETTINGS,ch.deletescape.lawnchair.permission.WRITE_SETTINGS</permissions>
+		</package>
+		<package>
+			<version>1.1.0.1348</version>
+			<versioncode>1348</versioncode>
+			<apkname>debug_lawnchair_1.1.0.1348.apk</apkname>
+			<hash type="sha256">334ebef22a6e7878d6b8fb2c7de347373439eb4dc43e53f3dc4f6aa8d5e08a75</hash>
+			<size>3930661</size>
+			<sdkver>21</sdkver>
+			<targetSdkVersion>26</targetSdkVersion>
+			<added>2025-10-10</added>
+			<sig>159aea60ec41a0f6a957562d90ab115b</sig>
+			<permissions>ACCESS_FINE_LOCATION,ACCESS_NETWORK_STATE,BIND_APPWIDGET,CALL_PHONE,DOWNLOAD_WITHOUT_NOTIFICATION,EXPAND_STATUS_BAR,INTERNET,READ_EXTERNAL_STORAGE,RECEIVE_BOOT_COMPLETED,REQUEST_INSTALL_PACKAGES,SET_WALLPAPER,SET_WALLPAPER_HINTS,WRITE_EXTERNAL_STORAGE,ch.deletescape.lawnchair.permission.QSB,ch.deletescape.lawnchair.permission.READ_SETTINGS,ch.deletescape.lawnchair.permission.WRITE_SETTINGS</permissions>
+		</package>
+		<package>
+			<version>1.0.1063</version>
+			<versioncode>1063</versioncode>
+			<apkname>debug_lawnchair_1.0.1063.apk</apkname>
+			<hash type="sha256">aadf2131cfb61fdb24b7650de6519f2a86106abf62ed1cd56199b1d568fb6520</hash>
+			<size>3622755</size>
+			<sdkver>21</sdkver>
+			<targetSdkVersion>26</targetSdkVersion>
+			<added>2025-10-10</added>
+			<sig>159aea60ec41a0f6a957562d90ab115b</sig>
+			<permissions>ACCESS_FINE_LOCATION,ACCESS_NETWORK_STATE,BIND_APPWIDGET,CALL_PHONE,DOWNLOAD_WITHOUT_NOTIFICATION,EXPAND_STATUS_BAR,INTERNET,READ_EXTERNAL_STORAGE,RECEIVE_BOOT_COMPLETED,REQUEST_INSTALL_PACKAGES,SET_WALLPAPER,SET_WALLPAPER_HINTS,WRITE_EXTERNAL_STORAGE,ch.deletescape.lawnchair.permission.QSB,ch.deletescape.lawnchair.permission.READ_SETTINGS,ch.deletescape.lawnchair.permission.WRITE_SETTINGS</permissions>
+		</package>
+		<package>
+			<version>Travis-818</version>
+			<versioncode>818</versioncode>
+			<apkname>debug_lawnchair_818.apk</apkname>
+			<hash type="sha256">29faeef3b0337b70cad0456931d833173b754261ea45732f6ab69233d41e756f</hash>
+			<size>1750026</size>
+			<sdkver>21</sdkver>
+			<targetSdkVersion>26</targetSdkVersion>
+			<added>2025-10-10</added>
+			<sig>159aea60ec41a0f6a957562d90ab115b</sig>
+			<permissions>ACCESS_NETWORK_STATE,BIND_APPWIDGET,CALL_PHONE,DOWNLOAD_WITHOUT_NOTIFICATION,EXPAND_STATUS_BAR,INTERNET,READ_EXTERNAL_STORAGE,RECEIVE_BOOT_COMPLETED,REQUEST_INSTALL_PACKAGES,SET_WALLPAPER,SET_WALLPAPER_HINTS,WRITE_EXTERNAL_STORAGE,ch.deletescape.lawnchair.permission.QSB,ch.deletescape.lawnchair.permission.READ_SETTINGS,ch.deletescape.lawnchair.permission.WRITE_SETTINGS</permissions>
+		</package>
+	</application>
 	<application id="dev.mr2.dpc">
 		<id>dev.mr2.dpc</id>
 		<added>2025-10-10</added>

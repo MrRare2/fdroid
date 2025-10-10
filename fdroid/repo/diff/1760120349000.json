@@ -1,0 +1,39 @@
+{
+  "repo": {
+    "timestamp": 1760120381000,
+    "categories": {
+      "fdroid": null,
+      "Launchers": {
+        "name": {
+          "en-US": "Launchers"
+        }
+      }
+    }
+  },
+  "packages": {
+    "ch.deletescape.lawnchair": {
+      "metadata": {
+        "categories": [
+          "Launchers"
+        ],
+        "license": "NOASSERTION",
+        "sourceCode": "https://github.com/LawnchairLauncher/lawnchair",
+        "screenshots": {
+          "phone": {
+            "en-US": [
+              {
+                "name": "/ch.deletescape.lawnchair/en-US/phoneScreenshots/1.jpg",
+                "sha256": "e012ad6ba0371a4ab79af64b4a2f2e7b62526056e1dcaa7021cbaa28b6f992ea",
+                "size": 36852
+              }
+            ]
+          }
+        },
+        "authorName": "LawnchairLauncher",
+        "summary": {
+          "en-US": "No clever tagline needed."
+        }
+      }
+    }
+  }
+}

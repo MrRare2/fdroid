@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1760118939000,
+    "timestamp": 1760120381000,
     "version": 20002,
     "name": "MrRare2 F-Droid",
     "icon": "icon.png",
@@ -12,6 +12,30 @@
     "uninstall": []
   },
   "apps": [
+    {
+      "authorName": "LawnchairLauncher",
+      "categories": [
+        "Launchers"
+      ],
+      "suggestedVersionName": "1.2.0.1884",
+      "suggestedVersionCode": "1884",
+      "license": "NOASSERTION",
+      "name": "Lawnchair",
+      "sourceCode": "https://github.com/LawnchairLauncher/lawnchair",
+      "summary": "No clever tagline needed.",
+      "added": 1760120339000,
+      "icon": "ch.deletescape.lawnchair.1884.png",
+      "packageName": "ch.deletescape.lawnchair",
+      "lastUpdated": 1760120348000,
+      "localized": {
+        "en-US": {
+          "phoneScreenshots": [
+            "1.jpg"
+          ],
+          "whatsNew": "This is the final release for Lawnchair v1."
+        }
+      }
+    },
     {
       "authorName": "MrRare2",
       "categories": [
@@ -45,6 +69,1192 @@
     }
   ],
   "packages": {
+    "ch.deletescape.lawnchair": [
+      {
+        "added": 1760120347000,
+        "apkName": "debug_lawnchair_1.2.0.1884.apk",
+        "hash": "47525c98210fe738414ec2d77d170a51f0ced55ed624499ae2ab9cf804d4865d",
+        "hashType": "sha256",
+        "minSdkVersion": 21,
+        "packageName": "ch.deletescape.lawnchair",
+        "sig": "159aea60ec41a0f6a957562d90ab115b",
+        "signer": "47ac92631c603513cc8d26dd9cffe0719a8b365544dccec2095824ec256120a7",
+        "size": 4252894,
+        "targetSdkVersion": 27,
+        "uses-permission": [
+          [
+            "android.permission.CALL_PHONE",
+            null
+          ],
+          [
+            "android.permission.SET_WALLPAPER",
+            null
+          ],
+          [
+            "android.permission.SET_WALLPAPER_HINTS",
+            null
+          ],
+          [
+            "android.permission.BIND_APPWIDGET",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.EXPAND_STATUS_BAR",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_FINE_LOCATION",
+            null
+          ],
+          [
+            "android.permission.WRITE_SETTINGS",
+            null
+          ],
+          [
+            "ch.deletescape.lawnchair.permission.READ_SETTINGS",
+            null
+          ],
+          [
+            "ch.deletescape.lawnchair.permission.WRITE_SETTINGS",
+            null
+          ],
+          [
+            "ch.deletescape.lawnchair.permission.QSB",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ]
+        ],
+        "versionCode": 1884,
+        "versionName": "1.2.0.1884"
+      },
+      {
+        "added": 1760120347000,
+        "apkName": "debug_lawnchair_1.2.0.1883.apk",
+        "hash": "48be5acb7cd6d2abd2d0a416be53945bff18bbd5b70f8ed1daff2f119a0ddc4a",
+        "hashType": "sha256",
+        "minSdkVersion": 21,
+        "packageName": "ch.deletescape.lawnchair",
+        "sig": "159aea60ec41a0f6a957562d90ab115b",
+        "signer": "47ac92631c603513cc8d26dd9cffe0719a8b365544dccec2095824ec256120a7",
+        "size": 4252302,
+        "targetSdkVersion": 27,
+        "uses-permission": [
+          [
+            "android.permission.CALL_PHONE",
+            null
+          ],
+          [
+            "android.permission.SET_WALLPAPER",
+            null
+          ],
+          [
+            "android.permission.SET_WALLPAPER_HINTS",
+            null
+          ],
+          [
+            "android.permission.BIND_APPWIDGET",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.EXPAND_STATUS_BAR",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_FINE_LOCATION",
+            null
+          ],
+          [
+            "android.permission.WRITE_SETTINGS",
+            null
+          ],
+          [
+            "ch.deletescape.lawnchair.permission.READ_SETTINGS",
+            null
+          ],
+          [
+            "ch.deletescape.lawnchair.permission.WRITE_SETTINGS",
+            null
+          ],
+          [
+            "ch.deletescape.lawnchair.permission.QSB",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ]
+        ],
+        "versionCode": 1883,
+        "versionName": "1.2.0.1883"
+      },
+      {
+        "added": 1760120346000,
+        "apkName": "debug_lawnchair_1.2.0.1878.apk",
+        "hash": "ee32110483b0ae7eb51711e202937c70e0106f8371661d0cd3a420c03d1bab1a",
+        "hashType": "sha256",
+        "minSdkVersion": 21,
+        "packageName": "ch.deletescape.lawnchair",
+        "sig": "159aea60ec41a0f6a957562d90ab115b",
+        "signer": "47ac92631c603513cc8d26dd9cffe0719a8b365544dccec2095824ec256120a7",
+        "size": 4176813,
+        "targetSdkVersion": 27,
+        "uses-permission": [
+          [
+            "android.permission.CALL_PHONE",
+            null
+          ],
+          [
+            "android.permission.SET_WALLPAPER",
+            null
+          ],
+          [
+            "android.permission.SET_WALLPAPER_HINTS",
+            null
+          ],
+          [
+            "android.permission.BIND_APPWIDGET",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.EXPAND_STATUS_BAR",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_FINE_LOCATION",
+            null
+          ],
+          [
+            "ch.deletescape.lawnchair.permission.READ_SETTINGS",
+            null
+          ],
+          [
+            "ch.deletescape.lawnchair.permission.WRITE_SETTINGS",
+            null
+          ],
+          [
+            "ch.deletescape.lawnchair.permission.QSB",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ]
+        ],
+        "versionCode": 1878,
+        "versionName": "1.2.0.1878"
+      },
+      {
+        "added": 1760120346000,
+        "apkName": "debug_lawnchair_1.1.0.1872.apk",
+        "hash": "f3574e67aae66d04a702e7b31e3a5530dc7e8c35c127e91d281a76e3886dad22",
+        "hashType": "sha256",
+        "minSdkVersion": 21,
+        "packageName": "ch.deletescape.lawnchair",
+        "sig": "159aea60ec41a0f6a957562d90ab115b",
+        "signer": "47ac92631c603513cc8d26dd9cffe0719a8b365544dccec2095824ec256120a7",
+        "size": 4898012,
+        "targetSdkVersion": 27,
+        "uses-permission": [
+          [
+            "android.permission.CALL_PHONE",
+            null
+          ],
+          [
+            "android.permission.SET_WALLPAPER",
+            null
+          ],
+          [
+            "android.permission.SET_WALLPAPER_HINTS",
+            null
+          ],
+          [
+            "android.permission.BIND_APPWIDGET",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.EXPAND_STATUS_BAR",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_FINE_LOCATION",
+            null
+          ],
+          [
+            "ch.deletescape.lawnchair.permission.READ_SETTINGS",
+            null
+          ],
+          [
+            "ch.deletescape.lawnchair.permission.WRITE_SETTINGS",
+            null
+          ],
+          [
+            "ch.deletescape.lawnchair.permission.QSB",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ]
+        ],
+        "versionCode": 1872,
+        "versionName": "1.1.0.1872"
+      },
+      {
+        "added": 1760120345000,
+        "apkName": "debug_lawnchair_1.1.0.1868.apk",
+        "hash": "455d4cd39fdb4d274f7d1c895b7af9cec9f7c372d9feacfeb3f9a7cbc5f24338",
+        "hashType": "sha256",
+        "minSdkVersion": 21,
+        "packageName": "ch.deletescape.lawnchair",
+        "sig": "159aea60ec41a0f6a957562d90ab115b",
+        "signer": "47ac92631c603513cc8d26dd9cffe0719a8b365544dccec2095824ec256120a7",
+        "size": 4896152,
+        "targetSdkVersion": 27,
+        "uses-permission": [
+          [
+            "android.permission.CALL_PHONE",
+            null
+          ],
+          [
+            "android.permission.SET_WALLPAPER",
+            null
+          ],
+          [
+            "android.permission.SET_WALLPAPER_HINTS",
+            null
+          ],
+          [
+            "android.permission.BIND_APPWIDGET",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.EXPAND_STATUS_BAR",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_FINE_LOCATION",
+            null
+          ],
+          [
+            "ch.deletescape.lawnchair.permission.READ_SETTINGS",
+            null
+          ],
+          [
+            "ch.deletescape.lawnchair.permission.WRITE_SETTINGS",
+            null
+          ],
+          [
+            "ch.deletescape.lawnchair.permission.QSB",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ]
+        ],
+        "versionCode": 1868,
+        "versionName": "1.1.0.1868"
+      },
+      {
+        "added": 1760120344000,
+        "apkName": "debug_lawnchair_1.1.0.1742.apk",
+        "hash": "662043938edf4c2a42bc64a2dc0bb5b304497e26582d2bdc2c7df779074a6f1f",
+        "hashType": "sha256",
+        "minSdkVersion": 21,
+        "packageName": "ch.deletescape.lawnchair",
+        "sig": "159aea60ec41a0f6a957562d90ab115b",
+        "signer": "47ac92631c603513cc8d26dd9cffe0719a8b365544dccec2095824ec256120a7",
+        "size": 3700429,
+        "targetSdkVersion": 27,
+        "uses-permission": [
+          [
+            "android.permission.CALL_PHONE",
+            null
+          ],
+          [
+            "android.permission.SET_WALLPAPER",
+            null
+          ],
+          [
+            "android.permission.SET_WALLPAPER_HINTS",
+            null
+          ],
+          [
+            "android.permission.BIND_APPWIDGET",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.EXPAND_STATUS_BAR",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_FINE_LOCATION",
+            null
+          ],
+          [
+            "ch.deletescape.lawnchair.permission.READ_SETTINGS",
+            null
+          ],
+          [
+            "ch.deletescape.lawnchair.permission.WRITE_SETTINGS",
+            null
+          ],
+          [
+            "ch.deletescape.lawnchair.permission.QSB",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ]
+        ],
+        "versionCode": 1742,
+        "versionName": "1.1.0.1742"
+      },
+      {
+        "added": 1760120344000,
+        "apkName": "debug_lawnchair_1.1.0.1730.apk",
+        "hash": "dd1ee486cad61889308489c9f4f663465967d48af5d83b94580336c2c9f74459",
+        "hashType": "sha256",
+        "minSdkVersion": 21,
+        "packageName": "ch.deletescape.lawnchair",
+        "sig": "159aea60ec41a0f6a957562d90ab115b",
+        "signer": "47ac92631c603513cc8d26dd9cffe0719a8b365544dccec2095824ec256120a7",
+        "size": 3694625,
+        "targetSdkVersion": 27,
+        "uses-permission": [
+          [
+            "android.permission.CALL_PHONE",
+            null
+          ],
+          [
+            "android.permission.SET_WALLPAPER",
+            null
+          ],
+          [
+            "android.permission.SET_WALLPAPER_HINTS",
+            null
+          ],
+          [
+            "android.permission.BIND_APPWIDGET",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.EXPAND_STATUS_BAR",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_FINE_LOCATION",
+            null
+          ],
+          [
+            "ch.deletescape.lawnchair.permission.READ_SETTINGS",
+            null
+          ],
+          [
+            "ch.deletescape.lawnchair.permission.WRITE_SETTINGS",
+            null
+          ],
+          [
+            "ch.deletescape.lawnchair.permission.QSB",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ]
+        ],
+        "versionCode": 1730,
+        "versionName": "1.1.0.1730"
+      },
+      {
+        "added": 1760120343000,
+        "apkName": "debug_lawnchair_1.1.0.1680.apk",
+        "hash": "2cf358ed07c895d61e6904f74e24c6037cfe60b13b8c4aa70374bc0558e6e4c2",
+        "hashType": "sha256",
+        "minSdkVersion": 21,
+        "packageName": "ch.deletescape.lawnchair",
+        "sig": "159aea60ec41a0f6a957562d90ab115b",
+        "signer": "47ac92631c603513cc8d26dd9cffe0719a8b365544dccec2095824ec256120a7",
+        "size": 4172672,
+        "targetSdkVersion": 27,
+        "uses-permission": [
+          [
+            "android.permission.CALL_PHONE",
+            null
+          ],
+          [
+            "android.permission.SET_WALLPAPER",
+            null
+          ],
+          [
+            "android.permission.SET_WALLPAPER_HINTS",
+            null
+          ],
+          [
+            "android.permission.BIND_APPWIDGET",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.EXPAND_STATUS_BAR",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_FINE_LOCATION",
+            null
+          ],
+          [
+            "ch.deletescape.lawnchair.permission.READ_SETTINGS",
+            null
+          ],
+          [
+            "ch.deletescape.lawnchair.permission.WRITE_SETTINGS",
+            null
+          ],
+          [
+            "ch.deletescape.lawnchair.permission.QSB",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ]
+        ],
+        "versionCode": 1680,
+        "versionName": "1.1.0.1680"
+      },
+      {
+        "added": 1760120343000,
+        "apkName": "debug_lawnchair_1.1.0.1655.apk",
+        "hash": "2ab435aac7decfe221ce9eb87c0712bd34ee0220760755dc4430c183a238aad8",
+        "hashType": "sha256",
+        "minSdkVersion": 21,
+        "packageName": "ch.deletescape.lawnchair",
+        "sig": "159aea60ec41a0f6a957562d90ab115b",
+        "signer": "47ac92631c603513cc8d26dd9cffe0719a8b365544dccec2095824ec256120a7",
+        "size": 4151407,
+        "targetSdkVersion": 27,
+        "uses-permission": [
+          [
+            "android.permission.CALL_PHONE",
+            null
+          ],
+          [
+            "android.permission.SET_WALLPAPER",
+            null
+          ],
+          [
+            "android.permission.SET_WALLPAPER_HINTS",
+            null
+          ],
+          [
+            "android.permission.BIND_APPWIDGET",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.EXPAND_STATUS_BAR",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_FINE_LOCATION",
+            null
+          ],
+          [
+            "ch.deletescape.lawnchair.permission.READ_SETTINGS",
+            null
+          ],
+          [
+            "ch.deletescape.lawnchair.permission.WRITE_SETTINGS",
+            null
+          ],
+          [
+            "ch.deletescape.lawnchair.permission.QSB",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ]
+        ],
+        "versionCode": 1655,
+        "versionName": "1.1.0.1655"
+      },
+      {
+        "added": 1760120342000,
+        "apkName": "debug_lawnchair_1.1.0.1594.apk",
+        "hash": "69c3649d7537fa09a18a5044c1f0169f05b75ac9399efc42d93b8413c60b5727",
+        "hashType": "sha256",
+        "minSdkVersion": 21,
+        "packageName": "ch.deletescape.lawnchair",
+        "sig": "159aea60ec41a0f6a957562d90ab115b",
+        "signer": "47ac92631c603513cc8d26dd9cffe0719a8b365544dccec2095824ec256120a7",
+        "size": 4154076,
+        "targetSdkVersion": 27,
+        "uses-permission": [
+          [
+            "android.permission.CALL_PHONE",
+            null
+          ],
+          [
+            "android.permission.SET_WALLPAPER",
+            null
+          ],
+          [
+            "android.permission.SET_WALLPAPER_HINTS",
+            null
+          ],
+          [
+            "android.permission.BIND_APPWIDGET",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.EXPAND_STATUS_BAR",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_FINE_LOCATION",
+            null
+          ],
+          [
+            "ch.deletescape.lawnchair.permission.READ_SETTINGS",
+            null
+          ],
+          [
+            "ch.deletescape.lawnchair.permission.WRITE_SETTINGS",
+            null
+          ],
+          [
+            "ch.deletescape.lawnchair.permission.QSB",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ]
+        ],
+        "versionCode": 1594,
+        "versionName": "1.1.0.1594"
+      },
+      {
+        "added": 1760120342000,
+        "apkName": "debug_lawnchair_1.1.0.1583.apk",
+        "hash": "572078e6f76d146cc5e9dde8e2c1f7eb0fe49e0dcb077ef28bc7c2f463080a81",
+        "hashType": "sha256",
+        "minSdkVersion": 21,
+        "packageName": "ch.deletescape.lawnchair",
+        "sig": "159aea60ec41a0f6a957562d90ab115b",
+        "signer": "47ac92631c603513cc8d26dd9cffe0719a8b365544dccec2095824ec256120a7",
+        "size": 4151830,
+        "targetSdkVersion": 27,
+        "uses-permission": [
+          [
+            "android.permission.CALL_PHONE",
+            null
+          ],
+          [
+            "android.permission.SET_WALLPAPER",
+            null
+          ],
+          [
+            "android.permission.SET_WALLPAPER_HINTS",
+            null
+          ],
+          [
+            "android.permission.BIND_APPWIDGET",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.EXPAND_STATUS_BAR",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_FINE_LOCATION",
+            null
+          ],
+          [
+            "ch.deletescape.lawnchair.permission.READ_SETTINGS",
+            null
+          ],
+          [
+            "ch.deletescape.lawnchair.permission.WRITE_SETTINGS",
+            null
+          ],
+          [
+            "ch.deletescape.lawnchair.permission.QSB",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ]
+        ],
+        "versionCode": 1583,
+        "versionName": "1.1.0.1583"
+      },
+      {
+        "added": 1760120341000,
+        "apkName": "debug_lawnchair_1.1.0.1427.apk",
+        "hash": "8ecbcbf0ab80fa5c8d8b7ec62604bda4c7854e324d62cb0ddd9a94c33a7167c9",
+        "hashType": "sha256",
+        "minSdkVersion": 21,
+        "packageName": "ch.deletescape.lawnchair",
+        "sig": "159aea60ec41a0f6a957562d90ab115b",
+        "signer": "47ac92631c603513cc8d26dd9cffe0719a8b365544dccec2095824ec256120a7",
+        "size": 3896394,
+        "targetSdkVersion": 26,
+        "uses-permission": [
+          [
+            "android.permission.CALL_PHONE",
+            null
+          ],
+          [
+            "android.permission.SET_WALLPAPER",
+            null
+          ],
+          [
+            "android.permission.SET_WALLPAPER_HINTS",
+            null
+          ],
+          [
+            "android.permission.BIND_APPWIDGET",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.EXPAND_STATUS_BAR",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_FINE_LOCATION",
+            null
+          ],
+          [
+            "ch.deletescape.lawnchair.permission.READ_SETTINGS",
+            null
+          ],
+          [
+            "ch.deletescape.lawnchair.permission.WRITE_SETTINGS",
+            null
+          ],
+          [
+            "ch.deletescape.lawnchair.permission.QSB",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ]
+        ],
+        "versionCode": 1427,
+        "versionName": "1.1.0.1427"
+      },
+      {
+        "added": 1760120340000,
+        "apkName": "debug_lawnchair_1.1.0.1420.apk",
+        "hash": "fda3cdf4e363e12a31d3d50c63654292e1e6fb3b43e5268b88767f9ecc6c76f3",
+        "hashType": "sha256",
+        "minSdkVersion": 21,
+        "packageName": "ch.deletescape.lawnchair",
+        "sig": "159aea60ec41a0f6a957562d90ab115b",
+        "signer": "47ac92631c603513cc8d26dd9cffe0719a8b365544dccec2095824ec256120a7",
+        "size": 3896303,
+        "targetSdkVersion": 26,
+        "uses-permission": [
+          [
+            "android.permission.CALL_PHONE",
+            null
+          ],
+          [
+            "android.permission.SET_WALLPAPER",
+            null
+          ],
+          [
+            "android.permission.SET_WALLPAPER_HINTS",
+            null
+          ],
+          [
+            "android.permission.BIND_APPWIDGET",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.EXPAND_STATUS_BAR",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_FINE_LOCATION",
+            null
+          ],
+          [
+            "ch.deletescape.lawnchair.permission.READ_SETTINGS",
+            null
+          ],
+          [
+            "ch.deletescape.lawnchair.permission.WRITE_SETTINGS",
+            null
+          ],
+          [
+            "ch.deletescape.lawnchair.permission.QSB",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ]
+        ],
+        "versionCode": 1420,
+        "versionName": "1.1.0.1420"
+      },
+      {
+        "added": 1760120340000,
+        "apkName": "debug_lawnchair_1.1.0.1348.apk",
+        "hash": "334ebef22a6e7878d6b8fb2c7de347373439eb4dc43e53f3dc4f6aa8d5e08a75",
+        "hashType": "sha256",
+        "minSdkVersion": 21,
+        "packageName": "ch.deletescape.lawnchair",
+        "sig": "159aea60ec41a0f6a957562d90ab115b",
+        "signer": "47ac92631c603513cc8d26dd9cffe0719a8b365544dccec2095824ec256120a7",
+        "size": 3930661,
+        "targetSdkVersion": 26,
+        "uses-permission": [
+          [
+            "android.permission.CALL_PHONE",
+            null
+          ],
+          [
+            "android.permission.SET_WALLPAPER",
+            null
+          ],
+          [
+            "android.permission.SET_WALLPAPER_HINTS",
+            null
+          ],
+          [
+            "android.permission.BIND_APPWIDGET",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.EXPAND_STATUS_BAR",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_FINE_LOCATION",
+            null
+          ],
+          [
+            "ch.deletescape.lawnchair.permission.READ_SETTINGS",
+            null
+          ],
+          [
+            "ch.deletescape.lawnchair.permission.WRITE_SETTINGS",
+            null
+          ],
+          [
+            "ch.deletescape.lawnchair.permission.QSB",
+            null
+          ],
+          [
+            "android.permission.REQUEST_INSTALL_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ]
+        ],
+        "versionCode": 1348,
+        "versionName": "1.1.0.1348"
+      },
+      {
+        "added": 1760120339000,
+        "apkName": "debug_lawnchair_1.0.1063.apk",
+        "hash": "aadf2131cfb61fdb24b7650de6519f2a86106abf62ed1cd56199b1d568fb6520",
+        "hashType": "sha256",
+        "minSdkVersion": 21,
+        "packageName": "ch.deletescape.lawnchair",
+        "sig": "159aea60ec41a0f6a957562d90ab115b",
+        "signer": "47ac92631c603513cc8d26dd9cffe0719a8b365544dccec2095824ec256120a7",
+        "size": 3622755,
+        "targetSdkVersion": 26,
+        "uses-permission": [
+          [
+            "android.permission.CALL_PHONE",
+            null
+          ],
+          [
+            "android.permission.SET_WALLPAPER",
+            null
+          ],
+          [
+            "android.permission.SET_WALLPAPER_HINTS",
+            null
+          ],
+          [
+            "android.permission.BIND_APPWIDGET",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.EXPAND_STATUS_BAR",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_FINE_LOCATION",
+            null
+          ],
+          [
+            "ch.deletescape.lawnchair.permission.READ_SETTINGS",
+            null
+          ],
+          [
+            "ch.deletescape.lawnchair.permission.WRITE_SETTINGS",
+            null
+          ],
+          [
+            "ch.deletescape.lawnchair.permission.QSB",
+            null
+          ],
+          [
+            "android.permission.REQUEST_INSTALL_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ]
+        ],
+        "versionCode": 1063,
+        "versionName": "1.0.1063"
+      },
+      {
+        "added": 1760120348000,
+        "apkName": "debug_lawnchair_818.apk",
+        "hash": "29faeef3b0337b70cad0456931d833173b754261ea45732f6ab69233d41e756f",
+        "hashType": "sha256",
+        "minSdkVersion": 21,
+        "packageName": "ch.deletescape.lawnchair",
+        "sig": "159aea60ec41a0f6a957562d90ab115b",
+        "signer": "47ac92631c603513cc8d26dd9cffe0719a8b365544dccec2095824ec256120a7",
+        "size": 1750026,
+        "targetSdkVersion": 26,
+        "uses-permission": [
+          [
+            "android.permission.CALL_PHONE",
+            null
+          ],
+          [
+            "android.permission.SET_WALLPAPER",
+            null
+          ],
+          [
+            "android.permission.SET_WALLPAPER_HINTS",
+            null
+          ],
+          [
+            "android.permission.BIND_APPWIDGET",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.EXPAND_STATUS_BAR",
+            null
+          ],
+          [
+            "android.permission.SET_WALLPAPER",
+            null
+          ],
+          [
+            "ch.deletescape.lawnchair.permission.READ_SETTINGS",
+            null
+          ],
+          [
+            "ch.deletescape.lawnchair.permission.WRITE_SETTINGS",
+            null
+          ],
+          [
+            "ch.deletescape.lawnchair.permission.QSB",
+            null
+          ],
+          [
+            "android.permission.REQUEST_INSTALL_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ]
+        ],
+        "versionCode": 818,
+        "versionName": "Travis-818"
+      }
+    ],
     "dev.mr2.dpc": [
       {
         "added": 1760118931000,

@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/MrRare2/fdroid/main/fdroid/repo",
-    "timestamp": 1760118939000,
+    "timestamp": 1760120381000,
     "categories": {
       "Connectivity": {
         "name": {
@@ -26,6 +26,11 @@
           "en-US": "Development"
         }
       },
+      "Launchers": {
+        "name": {
+          "en-US": "Launchers"
+        }
+      },
       "Networking": {
         "name": {
           "en-US": "Networking"
@@ -34,6 +39,1109 @@
     }
   },
   "packages": {
+    "ch.deletescape.lawnchair": {
+      "metadata": {
+        "added": 1760120339000,
+        "categories": [
+          "Launchers"
+        ],
+        "lastUpdated": 1760120348000,
+        "license": "NOASSERTION",
+        "sourceCode": "https://github.com/LawnchairLauncher/lawnchair",
+        "screenshots": {
+          "phone": {
+            "en-US": [
+              {
+                "name": "/ch.deletescape.lawnchair/en-US/phoneScreenshots/1.jpg",
+                "sha256": "e012ad6ba0371a4ab79af64b4a2f2e7b62526056e1dcaa7021cbaa28b6f992ea",
+                "size": 36852
+              }
+            ]
+          }
+        },
+        "authorName": "LawnchairLauncher",
+        "name": {
+          "en-US": "Lawnchair"
+        },
+        "summary": {
+          "en-US": "No clever tagline needed."
+        },
+        "icon": {
+          "en-US": {
+            "name": "/icons/ch.deletescape.lawnchair.1884.png",
+            "sha256": "83dd9af7b35a1e9d801b9a75bd408b997caeded25940413a9ca1496561df8c8b",
+            "size": 3045
+          }
+        },
+        "preferredSigner": "47ac92631c603513cc8d26dd9cffe0719a8b365544dccec2095824ec256120a7"
+      },
+      "versions": {
+        "47525c98210fe738414ec2d77d170a51f0ced55ed624499ae2ab9cf804d4865d": {
+          "added": 1760120347000,
+          "file": {
+            "name": "/debug_lawnchair_1.2.0.1884.apk",
+            "sha256": "47525c98210fe738414ec2d77d170a51f0ced55ed624499ae2ab9cf804d4865d",
+            "size": 4252894
+          },
+          "manifest": {
+            "versionName": "1.2.0.1884",
+            "versionCode": 1884,
+            "usesSdk": {
+              "minSdkVersion": 21,
+              "targetSdkVersion": 27
+            },
+            "signer": {
+              "sha256": [
+                "47ac92631c603513cc8d26dd9cffe0719a8b365544dccec2095824ec256120a7"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.CALL_PHONE"
+              },
+              {
+                "name": "android.permission.SET_WALLPAPER"
+              },
+              {
+                "name": "android.permission.SET_WALLPAPER_HINTS"
+              },
+              {
+                "name": "android.permission.BIND_APPWIDGET"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.EXPAND_STATUS_BAR"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.ACCESS_FINE_LOCATION"
+              },
+              {
+                "name": "android.permission.WRITE_SETTINGS"
+              },
+              {
+                "name": "ch.deletescape.lawnchair.permission.READ_SETTINGS"
+              },
+              {
+                "name": "ch.deletescape.lawnchair.permission.WRITE_SETTINGS"
+              },
+              {
+                "name": "ch.deletescape.lawnchair.permission.QSB"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              }
+            ]
+          }
+        },
+        "48be5acb7cd6d2abd2d0a416be53945bff18bbd5b70f8ed1daff2f119a0ddc4a": {
+          "added": 1760120347000,
+          "file": {
+            "name": "/debug_lawnchair_1.2.0.1883.apk",
+            "sha256": "48be5acb7cd6d2abd2d0a416be53945bff18bbd5b70f8ed1daff2f119a0ddc4a",
+            "size": 4252302
+          },
+          "manifest": {
+            "versionName": "1.2.0.1883",
+            "versionCode": 1883,
+            "usesSdk": {
+              "minSdkVersion": 21,
+              "targetSdkVersion": 27
+            },
+            "signer": {
+              "sha256": [
+                "47ac92631c603513cc8d26dd9cffe0719a8b365544dccec2095824ec256120a7"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.CALL_PHONE"
+              },
+              {
+                "name": "android.permission.SET_WALLPAPER"
+              },
+              {
+                "name": "android.permission.SET_WALLPAPER_HINTS"
+              },
+              {
+                "name": "android.permission.BIND_APPWIDGET"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.EXPAND_STATUS_BAR"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.ACCESS_FINE_LOCATION"
+              },
+              {
+                "name": "android.permission.WRITE_SETTINGS"
+              },
+              {
+                "name": "ch.deletescape.lawnchair.permission.READ_SETTINGS"
+              },
+              {
+                "name": "ch.deletescape.lawnchair.permission.WRITE_SETTINGS"
+              },
+              {
+                "name": "ch.deletescape.lawnchair.permission.QSB"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              }
+            ]
+          }
+        },
+        "ee32110483b0ae7eb51711e202937c70e0106f8371661d0cd3a420c03d1bab1a": {
+          "added": 1760120346000,
+          "file": {
+            "name": "/debug_lawnchair_1.2.0.1878.apk",
+            "sha256": "ee32110483b0ae7eb51711e202937c70e0106f8371661d0cd3a420c03d1bab1a",
+            "size": 4176813
+          },
+          "manifest": {
+            "versionName": "1.2.0.1878",
+            "versionCode": 1878,
+            "usesSdk": {
+              "minSdkVersion": 21,
+              "targetSdkVersion": 27
+            },
+            "signer": {
+              "sha256": [
+                "47ac92631c603513cc8d26dd9cffe0719a8b365544dccec2095824ec256120a7"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.CALL_PHONE"
+              },
+              {
+                "name": "android.permission.SET_WALLPAPER"
+              },
+              {
+                "name": "android.permission.SET_WALLPAPER_HINTS"
+              },
+              {
+                "name": "android.permission.BIND_APPWIDGET"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.EXPAND_STATUS_BAR"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.ACCESS_FINE_LOCATION"
+              },
+              {
+                "name": "ch.deletescape.lawnchair.permission.READ_SETTINGS"
+              },
+              {
+                "name": "ch.deletescape.lawnchair.permission.WRITE_SETTINGS"
+              },
+              {
+                "name": "ch.deletescape.lawnchair.permission.QSB"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              }
+            ]
+          }
+        },
+        "f3574e67aae66d04a702e7b31e3a5530dc7e8c35c127e91d281a76e3886dad22": {
+          "added": 1760120346000,
+          "file": {
+            "name": "/debug_lawnchair_1.1.0.1872.apk",
+            "sha256": "f3574e67aae66d04a702e7b31e3a5530dc7e8c35c127e91d281a76e3886dad22",
+            "size": 4898012
+          },
+          "manifest": {
+            "versionName": "1.1.0.1872",
+            "versionCode": 1872,
+            "usesSdk": {
+              "minSdkVersion": 21,
+              "targetSdkVersion": 27
+            },
+            "signer": {
+              "sha256": [
+                "47ac92631c603513cc8d26dd9cffe0719a8b365544dccec2095824ec256120a7"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.CALL_PHONE"
+              },
+              {
+                "name": "android.permission.SET_WALLPAPER"
+              },
+              {
+                "name": "android.permission.SET_WALLPAPER_HINTS"
+              },
+              {
+                "name": "android.permission.BIND_APPWIDGET"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.EXPAND_STATUS_BAR"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.ACCESS_FINE_LOCATION"
+              },
+              {
+                "name": "ch.deletescape.lawnchair.permission.READ_SETTINGS"
+              },
+              {
+                "name": "ch.deletescape.lawnchair.permission.WRITE_SETTINGS"
+              },
+              {
+                "name": "ch.deletescape.lawnchair.permission.QSB"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              }
+            ]
+          }
+        },
+        "455d4cd39fdb4d274f7d1c895b7af9cec9f7c372d9feacfeb3f9a7cbc5f24338": {
+          "added": 1760120345000,
+          "file": {
+            "name": "/debug_lawnchair_1.1.0.1868.apk",
+            "sha256": "455d4cd39fdb4d274f7d1c895b7af9cec9f7c372d9feacfeb3f9a7cbc5f24338",
+            "size": 4896152
+          },
+          "manifest": {
+            "versionName": "1.1.0.1868",
+            "versionCode": 1868,
+            "usesSdk": {
+              "minSdkVersion": 21,
+              "targetSdkVersion": 27
+            },
+            "signer": {
+              "sha256": [
+                "47ac92631c603513cc8d26dd9cffe0719a8b365544dccec2095824ec256120a7"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.CALL_PHONE"
+              },
+              {
+                "name": "android.permission.SET_WALLPAPER"
+              },
+              {
+                "name": "android.permission.SET_WALLPAPER_HINTS"
+              },
+              {
+                "name": "android.permission.BIND_APPWIDGET"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.EXPAND_STATUS_BAR"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.ACCESS_FINE_LOCATION"
+              },
+              {
+                "name": "ch.deletescape.lawnchair.permission.READ_SETTINGS"
+              },
+              {
+                "name": "ch.deletescape.lawnchair.permission.WRITE_SETTINGS"
+              },
+              {
+                "name": "ch.deletescape.lawnchair.permission.QSB"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              }
+            ]
+          }
+        },
+        "662043938edf4c2a42bc64a2dc0bb5b304497e26582d2bdc2c7df779074a6f1f": {
+          "added": 1760120344000,
+          "file": {
+            "name": "/debug_lawnchair_1.1.0.1742.apk",
+            "sha256": "662043938edf4c2a42bc64a2dc0bb5b304497e26582d2bdc2c7df779074a6f1f",
+            "size": 3700429
+          },
+          "manifest": {
+            "versionName": "1.1.0.1742",
+            "versionCode": 1742,
+            "usesSdk": {
+              "minSdkVersion": 21,
+              "targetSdkVersion": 27
+            },
+            "signer": {
+              "sha256": [
+                "47ac92631c603513cc8d26dd9cffe0719a8b365544dccec2095824ec256120a7"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.CALL_PHONE"
+              },
+              {
+                "name": "android.permission.SET_WALLPAPER"
+              },
+              {
+                "name": "android.permission.SET_WALLPAPER_HINTS"
+              },
+              {
+                "name": "android.permission.BIND_APPWIDGET"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.EXPAND_STATUS_BAR"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.ACCESS_FINE_LOCATION"
+              },
+              {
+                "name": "ch.deletescape.lawnchair.permission.READ_SETTINGS"
+              },
+              {
+                "name": "ch.deletescape.lawnchair.permission.WRITE_SETTINGS"
+              },
+              {
+                "name": "ch.deletescape.lawnchair.permission.QSB"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              }
+            ]
+          }
+        },
+        "dd1ee486cad61889308489c9f4f663465967d48af5d83b94580336c2c9f74459": {
+          "added": 1760120344000,
+          "file": {
+            "name": "/debug_lawnchair_1.1.0.1730.apk",
+            "sha256": "dd1ee486cad61889308489c9f4f663465967d48af5d83b94580336c2c9f74459",
+            "size": 3694625
+          },
+          "manifest": {
+            "versionName": "1.1.0.1730",
+            "versionCode": 1730,
+            "usesSdk": {
+              "minSdkVersion": 21,
+              "targetSdkVersion": 27
+            },
+            "signer": {
+              "sha256": [
+                "47ac92631c603513cc8d26dd9cffe0719a8b365544dccec2095824ec256120a7"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.CALL_PHONE"
+              },
+              {
+                "name": "android.permission.SET_WALLPAPER"
+              },
+              {
+                "name": "android.permission.SET_WALLPAPER_HINTS"
+              },
+              {
+                "name": "android.permission.BIND_APPWIDGET"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.EXPAND_STATUS_BAR"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.ACCESS_FINE_LOCATION"
+              },
+              {
+                "name": "ch.deletescape.lawnchair.permission.READ_SETTINGS"
+              },
+              {
+                "name": "ch.deletescape.lawnchair.permission.WRITE_SETTINGS"
+              },
+              {
+                "name": "ch.deletescape.lawnchair.permission.QSB"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              }
+            ]
+          }
+        },
+        "2cf358ed07c895d61e6904f74e24c6037cfe60b13b8c4aa70374bc0558e6e4c2": {
+          "added": 1760120343000,
+          "file": {
+            "name": "/debug_lawnchair_1.1.0.1680.apk",
+            "sha256": "2cf358ed07c895d61e6904f74e24c6037cfe60b13b8c4aa70374bc0558e6e4c2",
+            "size": 4172672
+          },
+          "manifest": {
+            "versionName": "1.1.0.1680",
+            "versionCode": 1680,
+            "usesSdk": {
+              "minSdkVersion": 21,
+              "targetSdkVersion": 27
+            },
+            "signer": {
+              "sha256": [
+                "47ac92631c603513cc8d26dd9cffe0719a8b365544dccec2095824ec256120a7"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.CALL_PHONE"
+              },
+              {
+                "name": "android.permission.SET_WALLPAPER"
+              },
+              {
+                "name": "android.permission.SET_WALLPAPER_HINTS"
+              },
+              {
+                "name": "android.permission.BIND_APPWIDGET"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.EXPAND_STATUS_BAR"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.ACCESS_FINE_LOCATION"
+              },
+              {
+                "name": "ch.deletescape.lawnchair.permission.READ_SETTINGS"
+              },
+              {
+                "name": "ch.deletescape.lawnchair.permission.WRITE_SETTINGS"
+              },
+              {
+                "name": "ch.deletescape.lawnchair.permission.QSB"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              }
+            ]
+          }
+        },
+        "2ab435aac7decfe221ce9eb87c0712bd34ee0220760755dc4430c183a238aad8": {
+          "added": 1760120343000,
+          "file": {
+            "name": "/debug_lawnchair_1.1.0.1655.apk",
+            "sha256": "2ab435aac7decfe221ce9eb87c0712bd34ee0220760755dc4430c183a238aad8",
+            "size": 4151407
+          },
+          "manifest": {
+            "versionName": "1.1.0.1655",
+            "versionCode": 1655,
+            "usesSdk": {
+              "minSdkVersion": 21,
+              "targetSdkVersion": 27
+            },
+            "signer": {
+              "sha256": [
+                "47ac92631c603513cc8d26dd9cffe0719a8b365544dccec2095824ec256120a7"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.CALL_PHONE"
+              },
+              {
+                "name": "android.permission.SET_WALLPAPER"
+              },
+              {
+                "name": "android.permission.SET_WALLPAPER_HINTS"
+              },
+              {
+                "name": "android.permission.BIND_APPWIDGET"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.EXPAND_STATUS_BAR"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.ACCESS_FINE_LOCATION"
+              },
+              {
+                "name": "ch.deletescape.lawnchair.permission.READ_SETTINGS"
+              },
+              {
+                "name": "ch.deletescape.lawnchair.permission.WRITE_SETTINGS"
+              },
+              {
+                "name": "ch.deletescape.lawnchair.permission.QSB"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              }
+            ]
+          }
+        },
+        "69c3649d7537fa09a18a5044c1f0169f05b75ac9399efc42d93b8413c60b5727": {
+          "added": 1760120342000,
+          "file": {
+            "name": "/debug_lawnchair_1.1.0.1594.apk",
+            "sha256": "69c3649d7537fa09a18a5044c1f0169f05b75ac9399efc42d93b8413c60b5727",
+            "size": 4154076
+          },
+          "manifest": {
+            "versionName": "1.1.0.1594",
+            "versionCode": 1594,
+            "usesSdk": {
+              "minSdkVersion": 21,
+              "targetSdkVersion": 27
+            },
+            "signer": {
+              "sha256": [
+                "47ac92631c603513cc8d26dd9cffe0719a8b365544dccec2095824ec256120a7"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.CALL_PHONE"
+              },
+              {
+                "name": "android.permission.SET_WALLPAPER"
+              },
+              {
+                "name": "android.permission.SET_WALLPAPER_HINTS"
+              },
+              {
+                "name": "android.permission.BIND_APPWIDGET"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.EXPAND_STATUS_BAR"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.ACCESS_FINE_LOCATION"
+              },
+              {
+                "name": "ch.deletescape.lawnchair.permission.READ_SETTINGS"
+              },
+              {
+                "name": "ch.deletescape.lawnchair.permission.WRITE_SETTINGS"
+              },
+              {
+                "name": "ch.deletescape.lawnchair.permission.QSB"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              }
+            ]
+          }
+        },
+        "572078e6f76d146cc5e9dde8e2c1f7eb0fe49e0dcb077ef28bc7c2f463080a81": {
+          "added": 1760120342000,
+          "file": {
+            "name": "/debug_lawnchair_1.1.0.1583.apk",
+            "sha256": "572078e6f76d146cc5e9dde8e2c1f7eb0fe49e0dcb077ef28bc7c2f463080a81",
+            "size": 4151830
+          },
+          "manifest": {
+            "versionName": "1.1.0.1583",
+            "versionCode": 1583,
+            "usesSdk": {
+              "minSdkVersion": 21,
+              "targetSdkVersion": 27
+            },
+            "signer": {
+              "sha256": [
+                "47ac92631c603513cc8d26dd9cffe0719a8b365544dccec2095824ec256120a7"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.CALL_PHONE"
+              },
+              {
+                "name": "android.permission.SET_WALLPAPER"
+              },
+              {
+                "name": "android.permission.SET_WALLPAPER_HINTS"
+              },
+              {
+                "name": "android.permission.BIND_APPWIDGET"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.EXPAND_STATUS_BAR"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.ACCESS_FINE_LOCATION"
+              },
+              {
+                "name": "ch.deletescape.lawnchair.permission.READ_SETTINGS"
+              },
+              {
+                "name": "ch.deletescape.lawnchair.permission.WRITE_SETTINGS"
+              },
+              {
+                "name": "ch.deletescape.lawnchair.permission.QSB"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              }
+            ]
+          }
+        },
+        "8ecbcbf0ab80fa5c8d8b7ec62604bda4c7854e324d62cb0ddd9a94c33a7167c9": {
+          "added": 1760120341000,
+          "file": {
+            "name": "/debug_lawnchair_1.1.0.1427.apk",
+            "sha256": "8ecbcbf0ab80fa5c8d8b7ec62604bda4c7854e324d62cb0ddd9a94c33a7167c9",
+            "size": 3896394
+          },
+          "manifest": {
+            "versionName": "1.1.0.1427",
+            "versionCode": 1427,
+            "usesSdk": {
+              "minSdkVersion": 21,
+              "targetSdkVersion": 26
+            },
+            "signer": {
+              "sha256": [
+                "47ac92631c603513cc8d26dd9cffe0719a8b365544dccec2095824ec256120a7"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.CALL_PHONE"
+              },
+              {
+                "name": "android.permission.SET_WALLPAPER"
+              },
+              {
+                "name": "android.permission.SET_WALLPAPER_HINTS"
+              },
+              {
+                "name": "android.permission.BIND_APPWIDGET"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.EXPAND_STATUS_BAR"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.ACCESS_FINE_LOCATION"
+              },
+              {
+                "name": "ch.deletescape.lawnchair.permission.READ_SETTINGS"
+              },
+              {
+                "name": "ch.deletescape.lawnchair.permission.WRITE_SETTINGS"
+              },
+              {
+                "name": "ch.deletescape.lawnchair.permission.QSB"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              }
+            ]
+          }
+        },
+        "fda3cdf4e363e12a31d3d50c63654292e1e6fb3b43e5268b88767f9ecc6c76f3": {
+          "added": 1760120340000,
+          "file": {
+            "name": "/debug_lawnchair_1.1.0.1420.apk",
+            "sha256": "fda3cdf4e363e12a31d3d50c63654292e1e6fb3b43e5268b88767f9ecc6c76f3",
+            "size": 3896303
+          },
+          "manifest": {
+            "versionName": "1.1.0.1420",
+            "versionCode": 1420,
+            "usesSdk": {
+              "minSdkVersion": 21,
+              "targetSdkVersion": 26
+            },
+            "signer": {
+              "sha256": [
+                "47ac92631c603513cc8d26dd9cffe0719a8b365544dccec2095824ec256120a7"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.CALL_PHONE"
+              },
+              {
+                "name": "android.permission.SET_WALLPAPER"
+              },
+              {
+                "name": "android.permission.SET_WALLPAPER_HINTS"
+              },
+              {
+                "name": "android.permission.BIND_APPWIDGET"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.EXPAND_STATUS_BAR"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.ACCESS_FINE_LOCATION"
+              },
+              {
+                "name": "ch.deletescape.lawnchair.permission.READ_SETTINGS"
+              },
+              {
+                "name": "ch.deletescape.lawnchair.permission.WRITE_SETTINGS"
+              },
+              {
+                "name": "ch.deletescape.lawnchair.permission.QSB"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              }
+            ]
+          }
+        },
+        "334ebef22a6e7878d6b8fb2c7de347373439eb4dc43e53f3dc4f6aa8d5e08a75": {
+          "added": 1760120340000,
+          "file": {
+            "name": "/debug_lawnchair_1.1.0.1348.apk",
+            "sha256": "334ebef22a6e7878d6b8fb2c7de347373439eb4dc43e53f3dc4f6aa8d5e08a75",
+            "size": 3930661
+          },
+          "manifest": {
+            "versionName": "1.1.0.1348",
+            "versionCode": 1348,
+            "usesSdk": {
+              "minSdkVersion": 21,
+              "targetSdkVersion": 26
+            },
+            "signer": {
+              "sha256": [
+                "47ac92631c603513cc8d26dd9cffe0719a8b365544dccec2095824ec256120a7"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.CALL_PHONE"
+              },
+              {
+                "name": "android.permission.SET_WALLPAPER"
+              },
+              {
+                "name": "android.permission.SET_WALLPAPER_HINTS"
+              },
+              {
+                "name": "android.permission.BIND_APPWIDGET"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.EXPAND_STATUS_BAR"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.ACCESS_FINE_LOCATION"
+              },
+              {
+                "name": "ch.deletescape.lawnchair.permission.READ_SETTINGS"
+              },
+              {
+                "name": "ch.deletescape.lawnchair.permission.WRITE_SETTINGS"
+              },
+              {
+                "name": "ch.deletescape.lawnchair.permission.QSB"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              }
+            ]
+          }
+        },
+        "aadf2131cfb61fdb24b7650de6519f2a86106abf62ed1cd56199b1d568fb6520": {
+          "added": 1760120339000,
+          "file": {
+            "name": "/debug_lawnchair_1.0.1063.apk",
+            "sha256": "aadf2131cfb61fdb24b7650de6519f2a86106abf62ed1cd56199b1d568fb6520",
+            "size": 3622755
+          },
+          "manifest": {
+            "versionName": "1.0.1063",
+            "versionCode": 1063,
+            "usesSdk": {
+              "minSdkVersion": 21,
+              "targetSdkVersion": 26
+            },
+            "signer": {
+              "sha256": [
+                "47ac92631c603513cc8d26dd9cffe0719a8b365544dccec2095824ec256120a7"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.CALL_PHONE"
+              },
+              {
+                "name": "android.permission.SET_WALLPAPER"
+              },
+              {
+                "name": "android.permission.SET_WALLPAPER_HINTS"
+              },
+              {
+                "name": "android.permission.BIND_APPWIDGET"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.EXPAND_STATUS_BAR"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.ACCESS_FINE_LOCATION"
+              },
+              {
+                "name": "ch.deletescape.lawnchair.permission.READ_SETTINGS"
+              },
+              {
+                "name": "ch.deletescape.lawnchair.permission.WRITE_SETTINGS"
+              },
+              {
+                "name": "ch.deletescape.lawnchair.permission.QSB"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              }
+            ]
+          }
+        },
+        "29faeef3b0337b70cad0456931d833173b754261ea45732f6ab69233d41e756f": {
+          "added": 1760120348000,
+          "file": {
+            "name": "/debug_lawnchair_818.apk",
+            "sha256": "29faeef3b0337b70cad0456931d833173b754261ea45732f6ab69233d41e756f",
+            "size": 1750026
+          },
+          "manifest": {
+            "versionName": "Travis-818",
+            "versionCode": 818,
+            "usesSdk": {
+              "minSdkVersion": 21,
+              "targetSdkVersion": 26
+            },
+            "signer": {
+              "sha256": [
+                "47ac92631c603513cc8d26dd9cffe0719a8b365544dccec2095824ec256120a7"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.CALL_PHONE"
+              },
+              {
+                "name": "android.permission.SET_WALLPAPER"
+              },
+              {
+                "name": "android.permission.SET_WALLPAPER_HINTS"
+              },
+              {
+                "name": "android.permission.BIND_APPWIDGET"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.EXPAND_STATUS_BAR"
+              },
+              {
+                "name": "android.permission.SET_WALLPAPER"
+              },
+              {
+                "name": "ch.deletescape.lawnchair.permission.READ_SETTINGS"
+              },
+              {
+                "name": "ch.deletescape.lawnchair.permission.WRITE_SETTINGS"
+              },
+              {
+                "name": "ch.deletescape.lawnchair.permission.QSB"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              }
+            ]
+          }
+        }
+      }
+    },
     "dev.mr2.dpc": {
       "metadata": {
         "added": 1760118930000,
