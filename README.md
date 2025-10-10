@@ -2,6 +2,10 @@
 
 credits to this guy: https://github.com/xarantolus/fdroid
 
+also im pausing development here
+im making this better, but currently i dont have enough time to do things right now, i might do things on another branch
+for now this is semi-functional
+
 # App list
 
 <!-- This table is auto-generated. Do not edit -->
@@ -33,3 +37,4 @@ Per-app signature:
 ```
 4C 55 AC 29 32 95 57 E7 38 3A 3A 11 07 B0 A4 29 DB 24 9D 93 B4 FE 8C 9E 09 3B 07 91 33 52 9F B7
 ```
+
