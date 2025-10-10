@@ -249,6 +249,7 @@ func main() {
                         setNonEmpty(meta, "SourceCode", apkInfo.GitURL)
                         setNonEmpty(meta, "License", apkInfo.License)
                         setNonEmpty(meta, "Description", apkInfo.Description)
+						setNonEmpty(meta, "PsckageName", pkgname)
 
                         var summary = apkInfo.Summary
                         // See https://f-droid.org/en/docs/Build_Metadata_Reference/#Summary for max length
@@ -308,30 +309,6 @@ func main() {
                                 return nil
                         }
                         defer os.RemoveAll(gitRepoPath)
-
-                        // Find icon
-                        iconPath, iconFound := apps.FindIcon(gitRepoPath)
-                        if iconFound {
-                                log.Printf("Found icon at %q", iconPath)
-                                iconExt := filepath.Ext(iconPath)
-                                iconName := latestPackage.PackageName + iconExt
-                                newIconPath := filepath.Join(*repoDir, "icons", iconName)
-
-                                err = os.MkdirAll(filepath.Dir(newIconPath), os.ModePerm)
-                                if err != nil {
-                                        log.Printf("Creating directory for icon file %q: %s", newIconPath, err.Error())
-                                } else {
-                                        err = file.Move(iconPath, newIconPath)
-                                        if err != nil {
-                                                log.Printf("Moving icon file %q to %q: %s", iconPath, newIconPath, err.Error())
-                                        } else {
-                                                log.Printf("Copied icon to %s", newIconPath)
-                                                meta["Icon"] = iconName
-                                        }
-                                }
-                        } else {
-                                log.Printf("Could not find icon in git repo")
-                        }
 
                         metadata, err := apps.FindMetadata(gitRepoPath)
                         if err != nil {

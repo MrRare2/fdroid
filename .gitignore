@@ -10,3 +10,5 @@ fdroid/tmp
 fdroid/repo/status
 fdroid/metadata/**/phoneScreenshots
 metascoop/metascoop
+metascoop2*/*
+update_py.sh
