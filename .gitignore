@@ -1,1 +1,12 @@
 .tmp/*
+config.py
+keystore.jks
+out.txt
+**.tmp
+.vscode
+keystore.p12
+config.yml
+fdroid/tmp
+fdroid/repo/status
+fdroid/metadata/**/phoneScreenshots
+metascoop/metascoop
