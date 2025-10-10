@@ -27,9 +27,9 @@ jobs:
         run: |
          sudo add-apt-repository ppa:fdroid/fdroidserver
          sudo apt update
-         sudo apt install -y fdroidserver openjdk-21-jdk
+         sudo apt install -y openjdk-21-jdk
          sudo apt install -y python3 python3-venv curl
-         sudo python3 -m pip install Androguard --upgrade --ignore-installed
+         sudo python3 -m pip install Androguard fdroidserver --upgrade --ignore-installed
 
       - name: Set up repo secrets
         run: |
