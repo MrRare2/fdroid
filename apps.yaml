@@ -1,0 +1,20 @@
+mdpc:
+  git: https://github.com/MrRare2/MDPC
+  name: "MDPC"
+  description: |
+    MDPC is a DPC (Device Policy Controller) to manage and control your mobile device.
+
+    Features&colon;
+
+    - Disable camera, screen capture, status bar
+    - Set time and timezone
+    - Lock and restart the device
+    - Install/uninstall/suspend/hide apps
+    - Monitor hardware
+    - Add/remove user restrictions
+    - and more!
+
+  categories:
+    - Connectivity
+    - Development
+    - Networking
