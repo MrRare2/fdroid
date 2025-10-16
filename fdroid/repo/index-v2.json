@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/MrRare2/fdroid/main/fdroid/repo",
-    "timestamp": 1760499237000,
+    "timestamp": 1760585522000,
     "categories": {
       "Connectivity": {
         "name": {
@@ -1150,7 +1150,7 @@
           "Development",
           "Networking"
         ],
-        "lastUpdated": 1760118931000,
+        "lastUpdated": 1760585488000,
         "license": "GPL-3.0",
         "sourceCode": "https://github.com/MrRare2/MDPC",
         "screenshots": {
@@ -1202,6 +1202,176 @@
         "preferredSigner": "4c55ac29329557e7383a3a1107b0a429db249d93b4fe8c9e093b079133529fb7"
       },
       "versions": {
+        "5233d9c087270563bc1e8da98563f7c8a3fec4fc9d9f4d27a08c25940dfe9b3e": {
+          "added": 1760585488000,
+          "file": {
+            "name": "/mdpc_v7.2.0.apk",
+            "sha256": "5233d9c087270563bc1e8da98563f7c8a3fec4fc9d9f4d27a08c25940dfe9b3e",
+            "size": 3723682
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "7.2.0",
+            "versionCode": 4100,
+            "features": [
+              {
+                "name": "android.software.device_admin"
+              }
+            ],
+            "usesSdk": {
+              "minSdkVersion": 21,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "4c55ac29329557e7383a3a1107b0a429db249d93b4fe8c9e093b079133529fb7"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "dev.mr2.dpc.MyPermission"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.REQUEST_DELETE_PACKAGES"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.ACCESS_FINE_LOCATION"
+              },
+              {
+                "name": "android.permission.ACCESS_COARSE_LOCATION"
+              },
+              {
+                "name": "android.permission.ACCESS_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.CHANGE_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.USE_BIOMETRIC"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.MANAGE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.REQUEST_PASSWORD_COMPLEXITY"
+              },
+              {
+                "name": "android.permission.USE_FINGERPRINT"
+              },
+              {
+                "name": "moe.shizuku.manager.permission.API_V23"
+              },
+              {
+                "name": "com.rosan.dhizuku.permission.API"
+              }
+            ]
+          }
+        },
+        "cad244a45054df7ad9697afb482df0a8ba5c749679b6fd80f1e00bf32e0f6ee6": {
+          "added": 1760585487000,
+          "file": {
+            "name": "/mdpc_v7.1.5.apk",
+            "sha256": "cad244a45054df7ad9697afb482df0a8ba5c749679b6fd80f1e00bf32e0f6ee6",
+            "size": 3689595
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "7.1.5",
+            "versionCode": 4005,
+            "features": [
+              {
+                "name": "android.software.device_admin"
+              }
+            ],
+            "usesSdk": {
+              "minSdkVersion": 21,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "4c55ac29329557e7383a3a1107b0a429db249d93b4fe8c9e093b079133529fb7"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "dev.mr2.dpc.MyPermission"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.REQUEST_DELETE_PACKAGES"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.ACCESS_FINE_LOCATION"
+              },
+              {
+                "name": "android.permission.ACCESS_COARSE_LOCATION"
+              },
+              {
+                "name": "android.permission.ACCESS_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.CHANGE_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.USE_BIOMETRIC"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.MANAGE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.REQUEST_PASSWORD_COMPLEXITY"
+              },
+              {
+                "name": "android.permission.USE_FINGERPRINT"
+              },
+              {
+                "name": "moe.shizuku.manager.permission.API_V23"
+              },
+              {
+                "name": "com.rosan.dhizuku.permission.API"
+              }
+            ]
+          }
+        },
         "0013cc848cf815073c07de2e3db43cce0e1a8dd2d8e859455a96f68d9d6aa366": {
           "added": 1760118931000,
           "file": {

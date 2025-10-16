@@ -1,0 +1,3 @@
+**Full Changelog**: https://github.com/MrRare2/MDPC/compare/v7.1.5...v7.2.0
+
+huge refactor\nnew API\nimproved network settings (wifi/private DNS)

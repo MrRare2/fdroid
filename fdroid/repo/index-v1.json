@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1760499237000,
+    "timestamp": 1760585522000,
     "version": 20002,
     "name": "MrRare2 F-Droid",
     "icon": "icon.png",
@@ -43,8 +43,8 @@
         "Development",
         "Networking"
       ],
-      "suggestedVersionName": "7.1.4",
-      "suggestedVersionCode": "4004",
+      "suggestedVersionName": "7.2.0",
+      "suggestedVersionCode": "4100",
       "description": "MDPC is a DPC (Device Policy Controller) to manage and control your mobile device.\n\nFeatures&colon;\n\n- Disable camera, screen capture, status bar\n- Set time and timezone\n- Lock and restart the device\n- Install/uninstall/suspend/hide apps\n- Monitor hardware\n- Add/remove user restrictions\n- and more!\n",
       "license": "GPL-3.0",
       "name": "MDPC",
@@ -52,7 +52,7 @@
       "summary": "Fork of OwnDroid, A Device Policy Controller (DPC) app. Only used by me :)",
       "added": 1760118930000,
       "packageName": "dev.mr2.dpc",
-      "lastUpdated": 1760118931000,
+      "lastUpdated": 1760585488000,
       "localized": {
         "en-US": {
           "phoneScreenshots": [
@@ -63,7 +63,7 @@
             "5.jpg",
             "6.jpg"
           ],
-          "whatsNew": "**Full Changelog**: https://github.com/MrRare2/MDPC/compare/v7.1.3...v7.1.4\n"
+          "whatsNew": "**Full Changelog**: https://github.com/MrRare2/MDPC/compare/v7.1.5...v7.2.0\n\nhuge refactor\\nnew API\\nimproved network settings (wifi/private DNS)\n"
         }
       }
     }
@@ -1256,6 +1256,192 @@
       }
     ],
     "dev.mr2.dpc": [
+      {
+        "added": 1760585488000,
+        "apkName": "mdpc_v7.2.0.apk",
+        "features": [
+          "android.software.device_admin"
+        ],
+        "hash": "5233d9c087270563bc1e8da98563f7c8a3fec4fc9d9f4d27a08c25940dfe9b3e",
+        "hashType": "sha256",
+        "minSdkVersion": 21,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "dev.mr2.dpc",
+        "sig": "9aa1fe05db1fd47eb96c4d2032c71f01",
+        "signer": "4c55ac29329557e7383a3a1107b0a429db249d93b4fe8c9e093b079133529fb7",
+        "size": 3723682,
+        "targetSdkVersion": 36,
+        "uses-permission": [
+          [
+            "dev.mr2.dpc.MyPermission",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.REQUEST_INSTALL_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.REQUEST_DELETE_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.QUERY_ALL_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.ACCESS_FINE_LOCATION",
+            null
+          ],
+          [
+            "android.permission.ACCESS_COARSE_LOCATION",
+            null
+          ],
+          [
+            "android.permission.ACCESS_WIFI_STATE",
+            null
+          ],
+          [
+            "android.permission.CHANGE_WIFI_STATE",
+            null
+          ],
+          [
+            "android.permission.USE_BIOMETRIC",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.MANAGE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.REQUEST_PASSWORD_COMPLEXITY",
+            null
+          ],
+          [
+            "android.permission.USE_FINGERPRINT",
+            null
+          ],
+          [
+            "moe.shizuku.manager.permission.API_V23",
+            null
+          ],
+          [
+            "com.rosan.dhizuku.permission.API",
+            null
+          ]
+        ],
+        "versionCode": 4100,
+        "versionName": "7.2.0"
+      },
+      {
+        "added": 1760585487000,
+        "apkName": "mdpc_v7.1.5.apk",
+        "features": [
+          "android.software.device_admin"
+        ],
+        "hash": "cad244a45054df7ad9697afb482df0a8ba5c749679b6fd80f1e00bf32e0f6ee6",
+        "hashType": "sha256",
+        "minSdkVersion": 21,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "dev.mr2.dpc",
+        "sig": "9aa1fe05db1fd47eb96c4d2032c71f01",
+        "signer": "4c55ac29329557e7383a3a1107b0a429db249d93b4fe8c9e093b079133529fb7",
+        "size": 3689595,
+        "targetSdkVersion": 36,
+        "uses-permission": [
+          [
+            "dev.mr2.dpc.MyPermission",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.REQUEST_INSTALL_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.REQUEST_DELETE_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.QUERY_ALL_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.ACCESS_FINE_LOCATION",
+            null
+          ],
+          [
+            "android.permission.ACCESS_COARSE_LOCATION",
+            null
+          ],
+          [
+            "android.permission.ACCESS_WIFI_STATE",
+            null
+          ],
+          [
+            "android.permission.CHANGE_WIFI_STATE",
+            null
+          ],
+          [
+            "android.permission.USE_BIOMETRIC",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.MANAGE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.REQUEST_PASSWORD_COMPLEXITY",
+            null
+          ],
+          [
+            "android.permission.USE_FINGERPRINT",
+            null
+          ],
+          [
+            "moe.shizuku.manager.permission.API_V23",
+            null
+          ],
+          [
+            "com.rosan.dhizuku.permission.API",
+            null
+          ]
+        ],
+        "versionCode": 4005,
+        "versionName": "7.1.5"
+      },
       {
         "added": 1760118931000,
         "apkName": "mdpc_v7.1.4.apk",
