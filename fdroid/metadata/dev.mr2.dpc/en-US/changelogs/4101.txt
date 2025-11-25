@@ -1,0 +1,5 @@
+**Full Changelog**: https://github.com/MrRare2/MDPC/compare/v7.2.0...v7.2.1
+
+App grouping
+TCP API optimizations
+App lock optimizations

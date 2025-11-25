@@ -12,7 +12,7 @@ for now this is semi-functional
 | Icon | Name | Description | Version |
 | --- | --- | --- | --- |
 | <a href="https://github.com/LawnchairLauncher/lawnchair"><img src="fdroid/repo/icons/ch.deletescape.lawnchair.1884.png" alt="Lawnchair icon" width="36px" height="36px"></a> | [**Lawnchair**](https://github.com/LawnchairLauncher/lawnchair) | No clever tagline needed. | 1.2.0.1884 (1884) |
-| <a href="https://github.com/MrRare2/MDPC"><img src="fdroid/repo/icons/" alt="MDPC icon" width="36px" height="36px"></a> | [**MDPC**](https://github.com/MrRare2/MDPC) | Fork of OwnDroid, A Device Policy Controller (DPC) app. Only used by me :) | 7.2.0 (4100) |
+| <a href="https://github.com/MrRare2/MDPC"><img src="fdroid/repo/icons/dev.mr2.dpc.4101.png" alt="MDPC icon" width="36px" height="36px"></a> | [**MDPC**](https://github.com/MrRare2/MDPC) | Fork of OwnDroid, A Device Policy Controller (DPC) app. Only used by me :) | 7.2.1 (4101) |
 <!-- end apps table -->
 
 # Adding

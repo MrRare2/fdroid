@@ -1,0 +1,14 @@
+{
+  "repo": {
+    "timestamp": 1764042133000
+  },
+  "packages": {
+    "dev.mr2.dpc": {
+      "versions": {
+        "c2919d38cdf4c81ec34dbe89e3666616ff33907172383e16421c21cb1d36e3a7": {
+          "releaseChannels": null
+        }
+      }
+    }
+  }
+}
