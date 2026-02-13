@@ -3,8 +3,8 @@ Categories:
     - Connectivity
     - Development
     - Networking
-CurrentVersion: 7.2.1
-CurrentVersionCode: 4101
+CurrentVersion: 7.3.0
+CurrentVersionCode: 4200
 Description: |
     MDPC is a DPC (Device Policy Controller) to manage and control your mobile device.
 

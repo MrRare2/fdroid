@@ -1,0 +1,9 @@
+**Full Changelog**: https://github.com/MrRare2/MDPC/compare/v7.2.1...v7.3.0
+
+match with upstream:
+app groups
+more TCP API stuff
+deprecated GET commands in the intent API
+managed configurations fixes
+Dhizuku lock task support
+and more...

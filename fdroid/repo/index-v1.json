@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1770871251000,
+    "timestamp": 1770957436000,
     "version": 20002,
     "name": "MrRare2 F-Droid",
     "icon": "icon.png",
@@ -72,17 +72,17 @@
         "Development",
         "Networking"
       ],
-      "suggestedVersionName": "7.2.1",
-      "suggestedVersionCode": "4101",
+      "suggestedVersionName": "7.3.0",
+      "suggestedVersionCode": "4200",
       "description": "MDPC is a DPC (Device Policy Controller) to manage and control your mobile device.\n\nFeatures&colon;\n\n- Disable camera, screen capture, status bar\n- Set time and timezone\n- Lock and restart the device\n- Install/uninstall/suspend/hide apps\n- Monitor hardware\n- Add/remove user restrictions\n- and more!\n",
       "license": "GPL-3.0",
       "name": "MDPC",
       "sourceCode": "https://github.com/MrRare2/MDPC",
       "summary": "Fork of OwnDroid, A Device Policy Controller (DPC) app. Only used by me :)",
       "added": 1760118930000,
-      "icon": "dev.mr2.dpc.4101.png",
+      "icon": "dev.mr2.dpc.4200.png",
       "packageName": "dev.mr2.dpc",
-      "lastUpdated": 1764042100000,
+      "lastUpdated": 1770957394000,
       "localized": {
         "en-US": {
           "phoneScreenshots": [
@@ -93,7 +93,7 @@
             "5.jpg",
             "6.jpg"
           ],
-          "whatsNew": "**Full Changelog**: https://github.com/MrRare2/MDPC/compare/v7.2.0...v7.2.1\n\nApp grouping\nTCP API optimizations\nApp lock optimizations\n"
+          "whatsNew": "**Full Changelog**: https://github.com/MrRare2/MDPC/compare/v7.2.1...v7.3.0\n\nmatch with upstream:\napp groups\nmore TCP API stuff\ndeprecated GET commands in the intent API\nmanaged configurations fixes\nDhizuku lock task support\nand more...\n"
         }
       }
     }
@@ -1286,6 +1286,123 @@
       }
     ],
     "dev.mr2.dpc": [
+      {
+        "added": 1770957394000,
+        "apkName": "mdpc_v7.3.0.apk",
+        "features": [
+          "android.software.device_admin"
+        ],
+        "hash": "def9b644be5b6e2d242ef17b279dbf117e91798e7e6383a1855a21c03f5b09f0",
+        "hashType": "sha256",
+        "minSdkVersion": 23,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "dev.mr2.dpc",
+        "sig": "9aa1fe05db1fd47eb96c4d2032c71f01",
+        "signer": "4c55ac29329557e7383a3a1107b0a429db249d93b4fe8c9e093b079133529fb7",
+        "size": 24450818,
+        "targetSdkVersion": 36,
+        "uses-permission": [
+          [
+            "dev.mr2.dpc.MyPermission",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.REQUEST_INSTALL_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.REQUEST_DELETE_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.QUERY_ALL_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.ACCESS_FINE_LOCATION",
+            null
+          ],
+          [
+            "android.permission.ACCESS_COARSE_LOCATION",
+            null
+          ],
+          [
+            "android.permission.ACCESS_WIFI_STATE",
+            null
+          ],
+          [
+            "android.permission.CHANGE_WIFI_STATE",
+            null
+          ],
+          [
+            "android.permission.USE_BIOMETRIC",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.MANAGE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.REQUEST_PASSWORD_COMPLEXITY",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_SPECIAL_USE",
+            null
+          ],
+          [
+            "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.USE_FINGERPRINT",
+            null
+          ],
+          [
+            "dev.mr2.dpc.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ],
+          [
+            "moe.shizuku.manager.permission.API_V23",
+            null
+          ],
+          [
+            "com.rosan.dhizuku.permission.API",
+            null
+          ]
+        ],
+        "versionCode": 4200,
+        "versionName": "7.3.0"
+      },
       {
         "added": 1764042100000,
         "apkName": "mdpc_v7.2.1.apk",
